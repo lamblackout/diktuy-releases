@@ -1,27 +1,27 @@
 {
   "manifest_version": 1,
-  "version": "2.0.0",
+  "version": "2.1.0",
   "channel": "stable",
-  "pub_date": "2026-07-01T15:22:22Z",
+  "pub_date": "2026-07-10T10:46:09Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.0.0",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.1.0",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.0.0/Diktuy-macOS.dmg",
-      "sha256": "8e2ba507bba2137b98eaea6bb4ab043eb85cbd33685d1a88abe49b3326c92070",
-      "size": 306833440
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.1.0/Diktuy-macOS.dmg",
+      "sha256": "1b1bade3d81dfa9fc80ea92d90bbd5f230c73249c140324dca7bb22d5ee1c98d",
+      "size": 336195431
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.0.0/Diktuy-macOS.dmg",
-      "sha256": "8e2ba507bba2137b98eaea6bb4ab043eb85cbd33685d1a88abe49b3326c92070",
-      "size": 306833440
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.1.0/Diktuy-macOS.dmg",
+      "sha256": "1b1bade3d81dfa9fc80ea92d90bbd5f230c73249c140324dca7bb22d5ee1c98d",
+      "size": 336195431
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.0.0/DiktuySetup.exe",
-      "sha256": "b49214781c460b3bcd3ab86528b2fc99b5c640026c08a07b572438a253e05c14",
-      "size": 108286028
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.1.0/DiktuySetup.exe",
+      "sha256": "558a0b3174f4259bcc9b38758daecc9ab6636c2f86da4f4338fd4578519a2126",
+      "size": 114280752
     }
   },
-  "signature": "vh82HwWCu+kJu7VwX6zDxT+P37Eob4TdeUpoO8MiSGy2NXfNilHZqKqWOJPnXvuL7zkWEoZceJgm3uNrRQMKDA==",
+  "signature": "8L6qfw/9OZCraDjgSZAYkyYN5x+Li5Gh33Bju4jNOflQ1MvV6CFX9ydBP5ZMymz0qh2wgZ/kRLjSjeobWjeCDg==",
   "signed_with": "+qcNzVo/"
 }
