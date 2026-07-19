@@ -1,28 +1,28 @@
 {
   "manifest_version": 1,
-  "version": "2.3.0",
+  "version": "2.3.1",
   "channel": "stable",
-  "pub_date": "2026-07-19T18:34:44Z",
-  "expires": "2027-01-15T18:34:44Z",
+  "pub_date": "2026-07-19T21:20:29Z",
+  "expires": "2027-01-15T21:20:29Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.3.0",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.3.1",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.3.0/Diktuy-macOS.dmg",
-      "sha256": "5295d7e93c48394b71fc63d3ed875e89eba96d809eb6c821be9c6e5ee570668f",
-      "size": 371102033
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.3.1/Diktuy-macOS.dmg",
+      "sha256": "26d437cc4e0b958603541b36db88bca443a53bf4d60d4268beabe28f2165d91a",
+      "size": 371102414
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.3.0/Diktuy-macOS.dmg",
-      "sha256": "5295d7e93c48394b71fc63d3ed875e89eba96d809eb6c821be9c6e5ee570668f",
-      "size": 371102033
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.3.1/Diktuy-macOS.dmg",
+      "sha256": "26d437cc4e0b958603541b36db88bca443a53bf4d60d4268beabe28f2165d91a",
+      "size": 371102414
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.3.0/DiktuySetup.exe",
-      "sha256": "603cf8c7d191709388a87dff8ff3ca476786bed244aa052042c3fc6e058ac11b",
-      "size": 120005935
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.3.1/DiktuySetup.exe",
+      "sha256": "17b43267f054376482238031dcde4d1f4410b1a441634a7db08f000dff6c2967",
+      "size": 120012214
     }
   },
-  "signature": "o6kuSbytNtb7aYYpaA51+m//Oha33nA99bPL9aR8/FXZTP7d74XbZBB/ymg64BWWb+PZOmeKXMMF/Snitc6gCg==",
+  "signature": "XOoBc8M7kQAiomTIHy6OS1fQ7qnLn9zyWkEhsmZyw85LkpyxcC+nFn3fjLvYeqTqe0Qb0jg8Zvzrr7BVTR3YDg==",
   "signed_with": "+qcNzVo/"
 }
