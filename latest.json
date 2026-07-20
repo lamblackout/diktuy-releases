@@ -2,8 +2,8 @@
   "manifest_version": 1,
   "version": "2.3.2",
   "channel": "stable",
-  "pub_date": "2026-07-20T08:49:03Z",
-  "expires": "2027-01-16T08:49:03Z",
+  "pub_date": "2026-07-20T08:51:49Z",
+  "expires": "2027-01-16T08:51:49Z",
   "min_supported_version": "1.10.0",
   "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.3.2",
   "platforms": {
@@ -23,6 +23,6 @@
       "size": 120006318
     }
   },
-  "signature": "7H5wYpsfcKWk8WDXQYT+fOYia0sCqdP6ii8MXCtFzt0zjD5ziUIb7zzv5RI0LN4fj9zMEU7M4yPvQgyN+fgjBw==",
+  "signature": "v/RkBCopA+qml8OdMB5Ws19XXmVW4Lo4aOPjIPo3F84xaleC29M/0TUS1HbSQMj55HSLQFuCdtS3sZ8iHPMkCw==",
   "signed_with": "+qcNzVo/"
 }
