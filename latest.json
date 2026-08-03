@@ -1,33 +1,96 @@
 {
   "manifest_version": 1,
-  "version": "2.4.0",
+  "version": "2.5.0",
   "channel": "stable",
-  "pub_date": "2026-07-21T09:31:26Z",
-  "expires": "2027-01-17T09:31:26Z",
+  "pub_date": "2026-08-03T13:16:20Z",
+  "expires": "2027-01-30T13:16:20Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.4.0",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.5.0",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.4.0/Diktuy-macOS.dmg",
-      "sha256": "f3f984537dcefed02a207fab2b12cda2adff8937fb1558bc7cb903af79baff19",
-      "size": 371130798
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.5.0/Diktuy-macOS.dmg",
+      "sha256": "e5dca1184ac0b11f428f5387dd720ccd9fb85a7d706157dcf4dadd809967739d",
+      "size": 371226643
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.4.0/Diktuy-macOS.dmg",
-      "sha256": "f3f984537dcefed02a207fab2b12cda2adff8937fb1558bc7cb903af79baff19",
-      "size": 371130798
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.4.0/Diktuy-macOS-x86_64.dmg",
-      "sha256": "38c81a1971d592db320be88299e4823471c036ad79f5bbdf8a422af561431317",
-      "size": 464749437
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.5.0/Diktuy-macOS.dmg",
+      "sha256": "e5dca1184ac0b11f428f5387dd720ccd9fb85a7d706157dcf4dadd809967739d",
+      "size": 371226643
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.4.0/DiktuySetup.exe",
-      "sha256": "0debce9fd7b81fd650a6b04b3c72e6e77bd79f3662e0d71909dacacdfa64ea66",
-      "size": 120008563
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.5.0/DiktuySetup.exe",
+      "sha256": "d01eda91ef1397a1202585c3dc499e77702f1691dad66a8426ca9259f201bc75",
+      "size": 120330662
     }
   },
-  "signature": "vIgCU+U2/nVibiZf+LTbP1ceLUY9N0bc8hkTOWCmDJDpAD+WvW6tWherphtqjacef/wRwKxv85pCE5IbESbHCw==",
+  "notes": {
+    "date": "2026-08-03",
+    "show_whats_new": true,
+    "ru": {
+      "summary": "Видно, что изменилось в обновлении. Буфер обмена не затирается, диктовка устойчивее к плохой связи.",
+      "body": [
+        {
+          "text": "В этом обновлении мы занялись тем, что мешало в повседневной работе: расшифровка больше не затирает буфер обмена, диктовка стала устойчивее к плохой связи, а горячие клавиши на Windows наконец назначаются без сюрпризов."
+        },
+        {
+          "text": "Диктуй теперь показывает, что именно изменилось: краткое описание в полосе уведомления, окно со списком изменений по ссылке «Подробнее» и это самое окно при первом запуске после обновления.",
+          "label": "Уведомления об обновлении"
+        },
+        {
+          "text": "Расшифровка больше не затирает то, что вы скопировали до диктовки. Поведение переключается тумблером в настройках, а вставить последнюю расшифровку можно сочетанием Alt + Shift + Z.",
+          "label": "Буфер обмена"
+        },
+        {
+          "text": "Звук уходит на распознавание упакованным — это вдвое меньше трафика при том же качестве. Соединение прогревается заранее, а при обрыве повтор проходит незаметно, без потери текста.",
+          "label": "Связь"
+        },
+        {
+          "text": "Сочетания назначаются надёжно, Ctrl больше не залипает после назначения, а правый Alt не путается с рабочим сочетанием.",
+          "label": "Горячие клавиши на Windows"
+        },
+        {
+          "text": "Выбранный микрофон восстанавливается по имени: после перезагрузки или переподключения он больше не сбрасывается на устройство по умолчанию.",
+          "label": "Микрофон"
+        },
+        {
+          "text": "На Mac клавиша ⌥ подписывается как OPTION — так, как она называется на клавиатуре. Окно с предупреждением о лимите минут больше не уезжает за нижний край экрана.",
+          "label": "Мелочи"
+        }
+      ]
+    },
+    "en": {
+      "summary": "You can see what changed in an update. Your clipboard is kept, dictation survives a shaky connection.",
+      "body": [
+        {
+          "text": "This update is about the things that got in the way day to day: your clipboard is no longer overwritten, dictation copes with a shaky connection, and assigning hotkeys on Windows finally works without surprises."
+        },
+        {
+          "text": "Diktuy now shows what actually changed: a short summary in the notification bar, a window with the full list behind the «Details» link, and that same window on the first launch after an update.",
+          "label": "Update notifications"
+        },
+        {
+          "text": "A transcript no longer replaces whatever you copied before dictating. You can switch the behaviour with a toggle in settings, and paste the last transcript with Alt + Shift + Z.",
+          "label": "Clipboard"
+        },
+        {
+          "text": "Audio is now compressed before it is sent for recognition — half the traffic at the same quality. The connection is warmed up in advance, and a dropped request is retried quietly, without losing your text.",
+          "label": "Connection"
+        },
+        {
+          "text": "Shortcuts register reliably, Ctrl no longer sticks after you assign one, and the right Alt key is no longer mistaken for your shortcut.",
+          "label": "Hotkeys on Windows"
+        },
+        {
+          "text": "The microphone you picked is restored by name: after a reboot or a reconnect it no longer falls back to the default device.",
+          "label": "Microphone"
+        },
+        {
+          "text": "On a Mac the ⌥ key is now labelled OPTION, the way it is printed on the keyboard. The minutes-limit warning no longer slides off the bottom of the screen.",
+          "label": "Small things"
+        }
+      ]
+    }
+  },
+  "signature": "gDPGOSwxYxXtNezWVj9O7PascAzBPM5D00vOQy/bUujDB5vF0UTpd2cuKrscMGmc0VxfsYYowEaQqt9vilUgAA==",
   "signed_with": "+qcNzVo/"
 }
