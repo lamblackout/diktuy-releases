@@ -1,69 +1,88 @@
 {
   "manifest_version": 1,
-  "version": "2.5.1",
+  "version": "2.6.0",
   "channel": "stable",
-  "pub_date": "2026-08-05T10:04:50Z",
-  "expires": "2027-02-01T10:04:50Z",
+  "pub_date": "2026-08-14T21:39:32Z",
+  "expires": "2027-02-10T21:39:32Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.5.1",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.6.0",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.5.1/Diktuy-macOS.dmg",
-      "sha256": "f37e6cf716f0bd6a5cdc1e0b61388e259f928732a566e8053806be6a13a05703",
-      "size": 371281651
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.0/Diktuy-macOS.dmg",
+      "sha256": "c37c4c7d6bad758fc5c31f44f8ff83816e80e530b4ee5253491259c15c88c397",
+      "size": 375553671
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.5.1/Diktuy-macOS.dmg",
-      "sha256": "f37e6cf716f0bd6a5cdc1e0b61388e259f928732a566e8053806be6a13a05703",
-      "size": 371281651
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.5.1/Diktuy-macOS-x86_64.dmg",
-      "sha256": "5eafd141dba4d93ff6d9ca8e9334bf0c0046837fbd1e5b3df68a216070a91c87",
-      "size": 464942686
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.0/Diktuy-macOS.dmg",
+      "sha256": "c37c4c7d6bad758fc5c31f44f8ff83816e80e530b4ee5253491259c15c88c397",
+      "size": 375553671
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.5.1/DiktuySetup.exe",
-      "sha256": "3101e6500ef95eeef02e69379550d2782114e6791140996d73486dbb32a92267",
-      "size": 120383034
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.0/DiktuySetup.exe",
+      "sha256": "c4f3a27de87229f5c621d58fb1a2c6308ddcf270ef87cfe9e762460b358ba839",
+      "size": 121444154
     }
   },
   "notes": {
-    "date": "2026-08-05",
+    "date": "2026-08-15",
     "show_whats_new": true,
     "ru": {
-      "summary": "Встроенный микрофон ноутбука больше не портит запись, когда говоришь громко. Диктовка идёт через тот микрофон, который вы выбрали.",
+      "summary": "Бесплатная расшифровка файлов и видео прямо на вашем компьютере — без ограничений.",
       "body": [
         {
-          "text": "Это небольшое обновление про качество распознавания. Оно заметнее всего тем, кто диктует со встроенного микрофона ноутбука."
+          "text": "Большое обновление: аудио и видео теперь можно расшифровывать прямо на вашем компьютере — бесплатно и без ограничений, а быстрая обработка на наших серверах перешла на понятные кредиты."
         },
         {
-          "text": "Если говорить громко или близко к ноутбуку, встроенный микрофон отдавал сигнал сильнее, чем запись могла вместить. В такие моменты в звуке появлялись резкие щелчки, и распознавание сбивалось — иногда на целую фразу. Теперь громкость записи выравнивается автоматически, звук остаётся чистым.",
-          "label": "Громкая речь"
+          "text": "Любые файлы и видео по ссылке расшифровываются локально: бесплатно, безлимитно, на любом тарифе. Аудио не покидает ваш компьютер. Распознавание спикеров работает и в этом режиме. На русской речи качество в наших замерах даже выше облачного.",
+          "label": "Расшифровка на вашем компьютере"
         },
         {
-          "text": "Раньше после отключения USB-микрофона или веб-камеры приложение могло попытаться записывать через колонки и каждый раз тратило время на восстановление. Теперь выбранный микрофон определяется по имени: отключили — запись спокойно уходит на встроенный, подключили обратно — ваш микрофон возвращается сам.",
-          "label": "Выбор микрофона"
+          "text": "Расшифровка на серверах и запуски агентов теперь считаются кредитами: 1 минута материала = 1 кредит. Профи — 300 кредитов в месяц, Безлимит — 1200, на бесплатном тарифе — 30 приветственных. Остаток виден на «Обзоре», пакеты докупаются в личном кабинете. Переход происходит постепенно — со дня вашего следующего продления; до этого всё работает как раньше.",
+          "label": "Кредиты на облачную обработку"
+        },
+        {
+          "text": "Перед расшифровкой видно оба варианта: «На вашем компьютере — бесплатно» и «Через облако — быстрее», с оценкой времени и стоимости. Кончились кредиты — файл всё равно расшифруется на вашем компьютере, стены больше нет.",
+          "label": "Выбор у кнопки запуска"
+        },
+        {
+          "text": "Для роликов YouTube с автоматической озвучкой теперь скачивается оригинальная дорожка, а не дубляж; если дорожек несколько — язык можно выбрать.",
+          "label": "Видео по ссылке"
+        },
+        {
+          "text": "Качество записи со встроенного микрофона Mac больше не зависит от системного ползунка громкости. Из расшифровок вырезаются ложные «титры». В приложении видна дата, когда обновятся минуты. Починены зависание при записи на macOS и выбор файла с кириллицей в пути на Windows.",
+          "label": "Качество и стабильность"
         }
       ]
     },
     "en": {
-      "summary": "Your laptop's built-in mic no longer ruins the recording when you speak up. Dictation goes through the microphone you actually picked.",
+      "summary": "Free unlimited transcription of files and videos right on your computer.",
       "body": [
         {
-          "text": "A small update about recognition quality. It matters most if you dictate using your laptop's built-in microphone."
+          "text": "A major update: audio and video can now be transcribed right on your computer — free and unlimited — while fast server-side processing moves to simple credits."
         },
         {
-          "text": "When you spoke loudly or close to the laptop, the built-in microphone pushed out more signal than the recording could hold. Sharp clicks crept into the audio at those moments and recognition went astray — sometimes for a whole sentence. Recording levels are now evened out automatically and the audio stays clean.",
-          "label": "Speaking loudly"
+          "text": "Any files and videos by link are transcribed locally: free, unlimited, on every plan. Audio never leaves your computer. Speaker recognition works in this mode too.",
+          "label": "On-device transcription"
         },
         {
-          "text": "Unplugging a USB microphone or webcam used to leave the app trying to record through the speakers, losing time on recovery every single time. Your microphone is now tracked by name: unplug it and recording quietly falls back to the built-in one, plug it back in and your microphone returns on its own.",
-          "label": "Microphone selection"
+          "text": "Server-side transcription and agent runs are now counted in credits: 1 minute of audio = 1 credit. Pro gets 300 credits per month, Unlimited — 1200, the free plan — 30 welcome credits. Your balance is shown on the Overview page; extra packs are available in your account. The switch happens gradually — starting from your next renewal date; until then everything works as before.",
+          "label": "Credits for cloud processing"
+        },
+        {
+          "text": "Before transcribing you see both options: “On your computer — free” and “Via cloud — faster”, with time and cost estimates. Out of credits? The file still gets transcribed on your computer — no more dead ends.",
+          "label": "Choice at the start button"
+        },
+        {
+          "text": "For YouTube videos with auto-dubbing the original audio track is now downloaded instead of the dub; when several tracks are available, you can pick the language.",
+          "label": "Videos by link"
+        },
+        {
+          "text": "Built-in Mac microphone recording quality no longer depends on the system input slider. Hallucinated “subtitles” lines are filtered out. The app shows the date your minutes renew. Fixed a recording freeze on macOS and Cyrillic file paths on Windows.",
+          "label": "Quality and stability"
         }
       ]
     }
   },
-  "signature": "POyTKB2gYpFnSOsPWEuZJhPYcPY5O0aPl/cXiNNv+RgG9zbLvxycFZGUkCVUlN57txLtHvrxKzw/ziwJBybICw==",
+  "signature": "oV7lrdo+756qh8l2QACNQjneoLfrKnhzNhEPNmjVL7/8ODlE/a8z8MAcZAbzZbMnD4492DCz0XN7wz+tJgMoDg==",
   "signed_with": "+qcNzVo/"
 }
