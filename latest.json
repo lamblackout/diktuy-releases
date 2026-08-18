@@ -1,93 +1,58 @@
 {
   "manifest_version": 1,
-  "version": "2.6.0",
+  "version": "2.6.1",
   "channel": "stable",
-  "pub_date": "2026-08-14T21:49:38Z",
-  "expires": "2027-02-10T21:49:38Z",
+  "pub_date": "2026-08-18T09:34:21Z",
+  "expires": "2027-02-14T09:34:21Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.6.0",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.6.1",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.0/Diktuy-macOS.dmg",
-      "sha256": "c37c4c7d6bad758fc5c31f44f8ff83816e80e530b4ee5253491259c15c88c397",
-      "size": 375553671
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.1/Diktuy-macOS.dmg",
+      "sha256": "1c5e27a0738d1cccf9d1a390e4e4d38e6e9f3b7eba701eed099568737af13c7b",
+      "size": 377370276
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.0/Diktuy-macOS.dmg",
-      "sha256": "c37c4c7d6bad758fc5c31f44f8ff83816e80e530b4ee5253491259c15c88c397",
-      "size": 375553671
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.0/Diktuy-macOS-x86_64.dmg",
-      "sha256": "bccdc7e8bf05441905fd87bfaac4751385b115d049558cfb617b7e19f9a9962c",
-      "size": 469267926
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.1/Diktuy-macOS.dmg",
+      "sha256": "1c5e27a0738d1cccf9d1a390e4e4d38e6e9f3b7eba701eed099568737af13c7b",
+      "size": 377370276
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.0/DiktuySetup.exe",
-      "sha256": "c4f3a27de87229f5c621d58fb1a2c6308ddcf270ef87cfe9e762460b358ba839",
-      "size": 121444154
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.1/DiktuySetup.exe",
+      "sha256": "9938903eaa392260c9a371eedc3873eee78f4f9cf7171f0b01fc03a4b809e962",
+      "size": 121770053
     }
   },
   "notes": {
-    "date": "2026-08-15",
+    "date": "2026-08-18",
     "show_whats_new": true,
     "ru": {
-      "summary": "Бесплатная расшифровка файлов и видео прямо на вашем компьютере — без ограничений.",
+      "summary": "На Mac переписана запись с микрофона: он больше не залипает, а речь распознаётся точнее.",
       "body": [
         {
-          "text": "Большое обновление: аудио и видео теперь можно расшифровывать прямо на вашем компьютере — бесплатно и без ограничений, а быстрая обработка на наших серверах перешла на понятные кредиты."
+          "text": "Раньше запись иногда переставала запускаться с сообщением, что микрофон ещё освобождается после прошлой записи, и помогал только перезапуск приложения. Мы перевели запись на системный механизм macOS, и эта ошибка больше не появляется. Заодно звук со встроенного микрофона MacBook стал чище, а речь распознаётся точнее.",
+          "label": "Микрофон на Mac больше не залипает"
         },
         {
-          "text": "Любые файлы и видео по ссылке расшифровываются локально: бесплатно, безлимитно, на любом тарифе. Аудио не покидает ваш компьютер. Распознавание спикеров работает и в этом режиме. На русской речи качество в наших замерах даже выше облачного.",
-          "label": "Расшифровка на вашем компьютере"
-        },
-        {
-          "text": "Расшифровка на серверах и запуски агентов теперь считаются кредитами: 1 минута материала = 1 кредит. Профи — 300 кредитов в месяц, Безлимит — 1200, на бесплатном тарифе — 30 приветственных. Остаток виден на «Обзоре», пакеты докупаются в личном кабинете. Переход происходит постепенно — со дня вашего следующего продления; до этого всё работает как раньше.",
-          "label": "Кредиты на облачную обработку"
-        },
-        {
-          "text": "Перед расшифровкой видно оба варианта: «На вашем компьютере — бесплатно» и «Через облако — быстрее», с оценкой времени и стоимости. Кончились кредиты — файл всё равно расшифруется на вашем компьютере, стены больше нет.",
-          "label": "Выбор у кнопки запуска"
-        },
-        {
-          "text": "Для роликов YouTube с автоматической озвучкой теперь скачивается оригинальная дорожка, а не дубляж; если дорожек несколько — язык можно выбрать.",
-          "label": "Видео по ссылке"
-        },
-        {
-          "text": "Качество записи со встроенного микрофона Mac больше не зависит от системного ползунка громкости. Из расшифровок вырезаются ложные «титры». В приложении видна дата, когда обновятся минуты. Починены зависание при записи на macOS и выбор файла с кириллицей в пути на Windows.",
-          "label": "Качество и стабильность"
+          "text": "Сколько кредитов осталось, теперь видно не только на «Обзоре», но и рядом с тарифом — там же, где время транскрибаций.",
+          "label": "Остаток кредитов на странице «Аккаунт»"
         }
       ]
     },
     "en": {
-      "summary": "Free unlimited transcription of files and videos right on your computer.",
+      "summary": "Microphone recording on Mac was rebuilt: no more stuck mic, and speech is recognised more accurately.",
       "body": [
         {
-          "text": "A major update: audio and video can now be transcribed right on your computer — free and unlimited — while fast server-side processing moves to simple credits."
+          "text": "Recording sometimes refused to start with a message that the microphone was still being released after the previous take, and only restarting the app helped. We moved recording to the native macOS capture mechanism, and that error is gone. Audio from the built-in MacBook microphone is also cleaner now, so speech is recognised more accurately.",
+          "label": "No more stuck microphone on Mac"
         },
         {
-          "text": "Any files and videos by link are transcribed locally: free, unlimited, on every plan. Audio never leaves your computer. Speaker recognition works in this mode too.",
-          "label": "On-device transcription"
-        },
-        {
-          "text": "Server-side transcription and agent runs are now counted in credits: 1 minute of audio = 1 credit. Pro gets 300 credits per month, Unlimited — 1200, the free plan — 30 welcome credits. Your balance is shown on the Overview page; extra packs are available in your account. The switch happens gradually — starting from your next renewal date; until then everything works as before.",
-          "label": "Credits for cloud processing"
-        },
-        {
-          "text": "Before transcribing you see both options: “On your computer — free” and “Via cloud — faster”, with time and cost estimates. Out of credits? The file still gets transcribed on your computer — no more dead ends.",
-          "label": "Choice at the start button"
-        },
-        {
-          "text": "For YouTube videos with auto-dubbing the original audio track is now downloaded instead of the dub; when several tracks are available, you can pick the language.",
-          "label": "Videos by link"
-        },
-        {
-          "text": "Built-in Mac microphone recording quality no longer depends on the system input slider. Hallucinated “subtitles” lines are filtered out. The app shows the date your minutes renew. Fixed a recording freeze on macOS and Cyrillic file paths on Windows.",
-          "label": "Quality and stability"
+          "text": "Your remaining credits are now shown next to your plan as well, alongside transcription minutes — not only on the Overview page.",
+          "label": "Credit balance on the Account page"
         }
       ]
     }
   },
-  "signature": "72ciFA9B1tEnAnYhGM9KvoleRV7n/W6ehNAFIc4nZwArjmeQH1lZVVioSdwkaF2FOBzj493Hn1xRRzGsFEqIDw==",
+  "signature": "cmI9zNDlIZiRvTOCbB5tQMfi3PJF61LaJDSl4fyc+u5nMAVg9hfT01k+dX5JBCNjGZPpuWg3Mkdgum8duMTOBQ==",
   "signed_with": "+qcNzVo/"
 }
