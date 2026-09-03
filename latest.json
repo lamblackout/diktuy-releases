@@ -1,63 +1,112 @@
 {
   "manifest_version": 1,
-  "version": "2.6.1",
+  "version": "2.6.2",
   "channel": "stable",
-  "pub_date": "2026-08-18T09:43:37Z",
-  "expires": "2027-02-14T09:43:37Z",
+  "pub_date": "2026-09-03T18:26:09Z",
+  "expires": "2027-03-02T18:26:09Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.6.1",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.6.2",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.1/Diktuy-macOS.dmg",
-      "sha256": "1c5e27a0738d1cccf9d1a390e4e4d38e6e9f3b7eba701eed099568737af13c7b",
-      "size": 377370276
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.2/Diktuy-macOS.dmg",
+      "sha256": "4daf93a30e314cf2165b7cf3c89b42766075f9b599803964109816ba7a6ecfdc",
+      "size": 397234371
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.1/Diktuy-macOS.dmg",
-      "sha256": "1c5e27a0738d1cccf9d1a390e4e4d38e6e9f3b7eba701eed099568737af13c7b",
-      "size": 377370276
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.1/Diktuy-macOS-x86_64.dmg",
-      "sha256": "4bae9add9485b573688f5f469ec3b9153e4cd95b6ab37483b5641bb2035baa3d",
-      "size": 471124875
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.2/Diktuy-macOS.dmg",
+      "sha256": "4daf93a30e314cf2165b7cf3c89b42766075f9b599803964109816ba7a6ecfdc",
+      "size": 397234371
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.1/DiktuySetup.exe",
-      "sha256": "9938903eaa392260c9a371eedc3873eee78f4f9cf7171f0b01fc03a4b809e962",
-      "size": 121770053
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.6.2/DiktuySetup.exe",
+      "sha256": "edb2bc49eb3b320da397d4f28e805e54537a914147ec530cf5b4c7982a37eb0a",
+      "size": 121838731
     }
   },
   "notes": {
-    "date": "2026-08-18",
+    "date": "2026-09-03",
     "show_whats_new": true,
     "ru": {
-      "summary": "На Mac переписана запись с микрофона: он больше не залипает, а речь распознаётся точнее.",
+      "summary": "Горячие клавиши на кнопки мыши, геймпад и одиночные клавиши, плюс исправления записи, вставки и распознавания.",
       "body": [
         {
-          "text": "Раньше запись иногда переставала запускаться с сообщением, что микрофон ещё освобождается после прошлой записи, и помогал только перезапуск приложения. Мы перевели запись на системный механизм macOS, и эта ошибка больше не появляется. Заодно звук со встроенного микрофона MacBook стал чище, а речь распознаётся точнее.",
-          "label": "Микрофон на Mac больше не залипает"
+          "text": "Горячую клавишу теперь можно назначить почти на что угодно, а несколько давних ошибок в записи и вставке исправлены."
         },
         {
-          "text": "Сколько кредитов осталось, теперь видно не только на «Обзоре», но и рядом с тарифом — там же, где время транскрибаций.",
-          "label": "Остаток кредитов на странице «Аккаунт»"
+          "text": "Запись теперь можно запускать боковой кнопкой мыши или кнопкой геймпада. Работает и на Windows, и на Mac.",
+          "label": "Кнопки мыши и геймпад как горячая клавиша"
+        },
+        {
+          "text": "Горячей клавишей может быть одна клавиша: правый или левый Ctrl, Shift, Alt, клавиши F13–F24 или символьная клавиша. Сочетания вроде Ctrl+C с той же клавишей запись не запускают.",
+          "label": "Одиночные клавиши на Windows"
+        },
+        {
+          "text": "Раньше при удержании клавиши запись иногда получалась пустой. Теперь время удержания отсчитывается с момента, когда микрофон действительно открылся.",
+          "label": "Короткое нажатие больше не обрывает запись"
+        },
+        {
+          "text": "Скриншот, файл или отформатированный текст, лежавшие в буфере до диктовки, после вставки возвращаются на место.",
+          "label": "Буфер обмена на Windows не теряет картинки и файлы"
+        },
+        {
+          "text": "Перед вставкой текста больше не мелькают лишние окна и фокус не уходит из поля, куда вы диктуете.",
+          "label": "Без мельканий перед вставкой на Windows"
+        },
+        {
+          "text": "Исправили редкий сбой, когда в конце расшифровки появлялись случайные слова заглавными буквами.",
+          "label": "Точнее распознавание в конце фразы"
+        },
+        {
+          "text": "В настройках снова можно вернуться к системному микрофону после выбора конкретного устройства.",
+          "label": "Микрофон «По умолчанию (системный)»"
+        },
+        {
+          "text": "У версии из Microsoft Store значок в меню «Пуск» и на панели задач теперь рисуется во весь размер, без тёмной подложки.",
+          "label": "Значок в Microsoft Store"
         }
       ]
     },
     "en": {
-      "summary": "Microphone recording on Mac was rebuilt: no more stuck mic, and speech is recognised more accurately.",
+      "summary": "Hotkeys on mouse buttons, gamepad and single keys, plus fixes for recording, pasting and recognition.",
       "body": [
         {
-          "text": "Recording sometimes refused to start with a message that the microphone was still being released after the previous take, and only restarting the app helped. We moved recording to the native macOS capture mechanism, and that error is gone. Audio from the built-in MacBook microphone is also cleaner now, so speech is recognised more accurately.",
-          "label": "No more stuck microphone on Mac"
+          "text": "This release lets you bind the hotkey to almost anything, and fixes several long-standing issues with recording and text insertion."
         },
         {
-          "text": "Your remaining credits are now shown next to your plan as well, alongside transcription minutes — not only on the Overview page.",
-          "label": "Credit balance on the Account page"
+          "text": "You can now start recording with a side mouse button or a gamepad button. Works on both Windows and Mac.",
+          "label": "Mouse buttons and gamepad as a hotkey"
+        },
+        {
+          "text": "The hotkey can be a single key: right or left Ctrl, Shift, Alt, F13–F24 or a symbol key. Regular shortcuts such as Ctrl+C with the same key do not start recording.",
+          "label": "Single keys on Windows"
+        },
+        {
+          "text": "Previously, holding the key sometimes produced an empty recording and the app complained about microphone permission. The hold timer now starts when the microphone has actually opened.",
+          "label": "A short press no longer cuts the recording"
+        },
+        {
+          "text": "If a screenshot, a file or formatted text was in the clipboard before you dictated, it is restored after pasting instead of being replaced by the transcript.",
+          "label": "Windows clipboard keeps images and files"
+        },
+        {
+          "text": "Extra windows no longer flash before the text is inserted, and focus stays in the field you are dictating into.",
+          "label": "No flicker before pasting on Windows"
+        },
+        {
+          "text": "Fixed a rare glitch where random words in capital letters appeared at the end of a transcript.",
+          "label": "More accurate end of phrase"
+        },
+        {
+          "text": "In settings you can once again switch back to the system microphone after choosing a specific device.",
+          "label": "\"Default (system)\" microphone"
+        },
+        {
+          "text": "For the Microsoft Store version, the icon in the Start menu and on the taskbar is now drawn at full size without a dark backplate.",
+          "label": "Icon in Microsoft Store"
         }
       ]
     }
   },
-  "signature": "ccFj+2/ixEmNpuEttj3RxfHWOiZdQrXWUj30egmaHN7NmEBYStQFD1TuFjK7ZcNW1Q8q+Ofkgg4aUqG+4C9jDg==",
+  "signature": "2KxAuMBq/c6+qMZ4vou+mlFzv172462JOX4HMHBW8iEy71siQJ3ngY6F13zK/e9x7O8qFDonjTemAy8xi0jdCQ==",
   "signed_with": "+qcNzVo/"
 }
