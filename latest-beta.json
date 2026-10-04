@@ -1,28 +1,28 @@
 {
   "manifest_version": 1,
-  "version": "2.7.1-beta3",
+  "version": "2.7.1-beta4",
   "channel": "beta",
-  "pub_date": "2026-10-04T17:09:42Z",
-  "expires": "2027-04-02T17:09:42Z",
+  "pub_date": "2026-10-04T18:57:04Z",
+  "expires": "2027-04-02T18:57:04Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.7.1-beta3",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.7.1-beta4",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1-beta3/Diktuy-macOS.dmg",
-      "sha256": "8780774064c5d0de73e4511de22c3ef8639d8f4bc885732c90a6a4b51923bc5d",
-      "size": 254302897
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1-beta4/Diktuy-macOS.dmg",
+      "sha256": "5380f9272c23c15ed22f49e5719a67b219b62061c609d1d3856f36fe59b09acc",
+      "size": 254326266
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1-beta3/Diktuy-macOS.dmg",
-      "sha256": "8780774064c5d0de73e4511de22c3ef8639d8f4bc885732c90a6a4b51923bc5d",
-      "size": 254302897
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1-beta4/Diktuy-macOS.dmg",
+      "sha256": "5380f9272c23c15ed22f49e5719a67b219b62061c609d1d3856f36fe59b09acc",
+      "size": 254326266
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1-beta3/DiktuySetup.exe",
-      "sha256": "e477eceaad974138ea15be26595dc230bb492db91ae1273706a1bc7c21fb749f",
-      "size": 131137367
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1-beta4/DiktuySetup.exe",
+      "sha256": "70c4df7c004e82265ff90da0af65333f30f2837a33ac334dd8ec527af4be55d0",
+      "size": 131148335
     }
   },
-  "signature": "v0SPOU8BIWx5+1+eU4bftjXvwv6L1bPNyLzijfG0+TQ94jlP1BynmyPFIt0paWGKOjCTl8oNInt2lbEblJ9YAg==",
+  "signature": "1Z2SuuAsuIV5JQrrIANsSt6672nUGyU39/O4Aek8p6QLFAoHnPi+4iosJMjxrbOqt3YNDur2Ebka33YujgRDBQ==",
   "signed_with": "+qcNzVo/"
 }
