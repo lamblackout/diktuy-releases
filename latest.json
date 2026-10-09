@@ -1,133 +1,112 @@
 {
   "manifest_version": 1,
-  "version": "2.7.0",
+  "version": "2.7.1",
   "channel": "stable",
-  "pub_date": "2026-09-26T14:43:50Z",
-  "expires": "2027-03-25T14:43:50Z",
+  "pub_date": "2026-10-09T22:22:33Z",
+  "expires": "2027-04-07T22:22:33Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.7.0",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.7.1",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.0/Diktuy-macOS.dmg",
-      "sha256": "07bbef61362d372b401fb05a28567050415f5596014bf4040c2d1981c9b82ea5",
-      "size": 254142381
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1/Diktuy-macOS.dmg",
+      "sha256": "d7988caec627a0981ec43046818273a2f6712dc557a1ea93be996062c6b23778",
+      "size": 292445580
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.0/Diktuy-macOS.dmg",
-      "sha256": "07bbef61362d372b401fb05a28567050415f5596014bf4040c2d1981c9b82ea5",
-      "size": 254142381
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.0/Diktuy-macOS-x86_64.dmg",
-      "sha256": "26a3e124892f2688ca05460e10a14024f2d380e452dc2e31017002a74f0bd2a5",
-      "size": 310489605
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1/Diktuy-macOS.dmg",
+      "sha256": "d7988caec627a0981ec43046818273a2f6712dc557a1ea93be996062c6b23778",
+      "size": 292445580
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.0/DiktuySetup.exe",
-      "sha256": "a0fa35b7af16cf7d6daeac02c73e49672f231ce1770db01f47d6c2a1affe2871",
-      "size": 129955744
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1/DiktuySetup.exe",
+      "sha256": "ab54075274d881cc65d70387f3d676de89c6a08f6f7ba75c0220f615706b3b9b",
+      "size": 160330264
     }
   },
   "notes": {
-    "date": "2026-09-26",
+    "date": "2026-10-10",
     "show_whats_new": true,
     "ru": {
-      "summary": "Диктуй Встречи, новый вид всех экранов, синхронизация между компьютерами, выжимки по файлам и поиск по истории.",
+      "summary": "Новый вид «Файлов» и «Встреч»: облако и цена прямо на кнопке, выбор языка.",
       "body": [
         {
-          "text": "Главное в этом выпуске: встречи, новый вид всех экранов, синхронизация между компьютерами и десятки исправлений."
+          "text": "Обновили экраны «Файлы», «Встречи», «Обзор» и «Учётная запись» и исправили несколько ошибок."
         },
         {
-          "text": "Началась встреча в Zoom, Телемосте, Teams или в браузере: приложение само предложит записать. Расшифровка считается на вашем компьютере, звук никуда не уходит.",
-          "label": "Встречи без бота"
-        },
-        {
-          "text": "Ваш микрофон и собеседники пишутся отдельно, реплики подписаны по голосам, имена можно задать. Живой текст по ходу встречи.",
-          "label": "Кто что сказал"
-        },
-        {
-          "text": "По кнопке из расшифровки, плюс свой запрос своими словами. Списание один раз за встречу. Через облако: любые языки и быстрее на долгих встречах.",
-          "label": "Выжимка, протокол, задачи"
-        },
-        {
-          "text": "Несколько файлов разом, выжимка и свой запрос по файлу. При обрыве сети готовая часть сохраняется, остаток досчитывается на компьютере.",
+          "text": "Облачная расшифровка включается тумблером, а цена видна сразу на кнопке: «Начать за 3 кредита» или «Начать бесплатно» на компьютере. Язык записи выбирается рядом.",
           "label": "Файлы"
         },
         {
-          "text": "На платных тарифах история, встречи, словарь, агенты и настройки синхронизируются через аккаунт.",
-          "label": "Два компьютера"
+          "text": "Облако и язык выбираются прямо на экране встреч. Вернулось автоопределение языка, если на встрече говорят на нескольких языках. Без ответа запись больше не начинается сама, а «Больше не предлагать» убирает вопрос.",
+          "label": "Встречи"
         },
         {
-          "text": "Без потолка в 50 записей, вкладки по видам, поиск по диктовкам, файлам и встречам, сохранение в файл.",
-          "label": "История и поиск"
+          "text": "Если навести на «Кратко», видно, сколько кредитов спишет обработка записи.",
+          "label": "Цена до нажатия"
         },
         {
-          "text": "Все экраны, мастер первого запуска и окно записи встречи перерисованы по новым макетам.",
-          "label": "Новый дизайн"
+          "text": "Ролик или музыка в браузере больше не принимаются за встречу.",
+          "label": "Видео в браузере"
         },
         {
-          "text": "Вставить последнюю расшифровку, сменить микрофон или агента можно из трея. Клавиша сброса записи настраивается.",
-          "label": "Трей и клавиши"
+          "text": "Ролики YouTube с чужой озвучкой расшифровываются на языке оригинала.",
+          "label": "Видео по ссылке"
         },
         {
-          "text": "«Безлимит» теперь называется «Макс», у него 1200 кредитов в месяц. На бесплатном тарифе две обработки в месяц.",
-          "label": "Тарифы"
+          "text": "Новые версии скачиваются сами и ставятся, пока вы не за компьютером. Нажимать ничего не нужно.",
+          "label": "Обновления"
         },
         {
-          "text": "Ошибки объясняются по-русски, истёкшая подписка не выглядит действующей, данные входа на Windows зашифрованы, диктовка не ждёт загрузку обновления.",
+          "text": "Если минуты закончились, надиктованное не пропадает: запись ждёт в «Истории», расшифровать её можно позже.",
+          "label": "Конец минут"
+        },
+        {
+          "text": "Настройки применяются сразу, без перезапуска. Карточка кредитов видна и у тех, кто оплатил тариф до перехода на кредиты. Языки и числа во всех текстах написаны по-русски.",
           "label": "Исправления"
         }
       ]
     },
     "en": {
-      "summary": "Diktuy Meetings, a redesigned app, sync between computers, file summaries and history search.",
+      "summary": "A new look for Files and Meetings: the cloud and the price right on the button, plus a language picker.",
       "body": [
         {
-          "text": "The big things in this release: meetings, a new look for every screen, sync between computers and dozens of fixes."
+          "text": "We refreshed the Files, Meetings, Overview and Account screens and fixed a few bugs."
         },
         {
-          "text": "When a meeting starts in Zoom, Telemost, Teams or in the browser, the app offers to record it. Transcription runs on your computer and the audio never leaves it.",
-          "label": "Meetings without a bot"
-        },
-        {
-          "text": "Your microphone and the other participants are recorded separately, lines are labelled by speaker and you can name them. Live text appears as the meeting goes.",
-          "label": "Who said what"
-        },
-        {
-          "text": "One click from the transcript, plus questions in your own words. Charged once per meeting. Via the cloud: any language and faster on long meetings.",
-          "label": "Summary, minutes and tasks"
-        },
-        {
-          "text": "Several files at once, a summary and your own question per file. If the connection drops, the finished part is kept and the rest is transcribed on your computer.",
+          "text": "Cloud transcription is turned on with a switch, and the price is shown right on the button: “Start for 3 credits”, or “Start for free” on your computer. The recording language is picked next to it.",
           "label": "Files"
         },
         {
-          "text": "On paid plans history, meetings, dictionary, agents and settings sync through your account.",
-          "label": "Two computers"
+          "text": "The cloud and the language are chosen right on the Meetings screen. Auto-detect language is back for meetings held in several languages. Recording no longer starts on its own if you don’t answer, and “Don’t offer again” turns the prompt off.",
+          "label": "Meetings"
         },
         {
-          "text": "No more 50-entry cap, tabs by type, search across dictations, files and meetings, save to file.",
-          "label": "History and search"
+          "text": "Hover over Summary to see how many credits processing the recording will take.",
+          "label": "Price before you click"
         },
         {
-          "text": "Every screen, the first-run wizard and the meeting recording window have been redrawn to the new designs.",
-          "label": "New design"
+          "text": "A video or music playing in the browser is no longer mistaken for a meeting.",
+          "label": "Video in the browser"
         },
         {
-          "text": "Paste the last transcript or switch the microphone or agent right from the tray. The cancel-recording key is now configurable.",
-          "label": "Tray and keys"
+          "text": "YouTube videos with a dubbed audio track are transcribed in the original language.",
+          "label": "Video by link"
         },
         {
-          "text": "The \"Unlimited\" plan is now called \"Max\" and includes 1,200 credits a month. The free plan gets two processings a month.",
-          "label": "Plans"
+          "text": "New versions download on their own and install while you’re away from your computer. No clicks needed.",
+          "label": "Updates"
         },
         {
-          "text": "Errors are explained in plain language, an expired subscription no longer looks active, sign-in data on Windows is encrypted, and dictation no longer waits for an update download.",
+          "text": "If you run out of minutes, your dictation isn’t lost: the recording waits in History, so you can transcribe it later.",
+          "label": "Out of minutes"
+        },
+        {
+          "text": "Settings now apply right away, without a restart. The credits card is shown to people who paid before the switch to credits too. Language names and number forms read correctly throughout.",
           "label": "Fixes"
         }
       ]
     }
   },
-  "signature": "QNbM6g/YHTfzQpU7vok7wrXJLZz4Eu51+iu+iCHNx3yl0fd5ItloUJ3o9lul0qQdDOMrivpTC5nWWL6/kTEUDA==",
+  "signature": "OGpeKeunqYm/bbbow61T6ly2UUvzyLfc2TI47sB/+RiWv5eLvC56WHJWyO9mQTC6fNOx44bdhhwG5IFSl0yyCQ==",
   "signed_with": "+qcNzVo/"
 }
