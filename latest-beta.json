@@ -1,28 +1,80 @@
 {
   "manifest_version": 1,
-  "version": "2.8.0-beta1",
-  "channel": "beta",
-  "pub_date": "2026-10-11T20:02:06Z",
-  "expires": "2027-04-09T20:02:06Z",
+  "version": "2.8.0",
+  "channel": "stable",
+  "pub_date": "2026-10-11T21:10:32Z",
+  "expires": "2027-04-09T21:10:32Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.0-beta1",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.0",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0-beta1/Diktuy-macOS.dmg",
-      "sha256": "229684c5785ecd7178cdfbbb56d0e530c078c07f616edf3d7f787a85d0987da6",
-      "size": 292483933
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0/Diktuy-macOS.dmg",
+      "sha256": "5607a10d1f52015477afc28120b68400e5ee8fa45b9877ee26edaebd294b7574",
+      "size": 292486544
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0-beta1/Diktuy-macOS.dmg",
-      "sha256": "229684c5785ecd7178cdfbbb56d0e530c078c07f616edf3d7f787a85d0987da6",
-      "size": 292483933
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0/Diktuy-macOS.dmg",
+      "sha256": "5607a10d1f52015477afc28120b68400e5ee8fa45b9877ee26edaebd294b7574",
+      "size": 292486544
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0-beta1/DiktuySetup.exe",
-      "sha256": "4b9b5e870f4f605b585ed8a2596d44f3f876b80f45a9ed0cf569cf83752ce618",
-      "size": 160357330
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0/DiktuySetup.exe",
+      "sha256": "8c027b34ef572cda0a8167bd55b11db9ee7f0204cfea50ffffb7adae7737fa96",
+      "size": 160354924
     }
   },
-  "signature": "0iZ1zup//1LiOB2UAplPOvXCneF14jfD9yse1Q41MKJwWuDJTfgVVzfXDsmJPgVoLl4UZl4J/yoeR4INFCoDDg==",
+  "notes": {
+    "date": "2026-10-12",
+    "show_whats_new": true,
+    "ru": {
+      "summary": "Звук встреч в облаке, папка с записями в один клик и текст рядом со звуком.",
+      "body": [
+        {
+          "text": "Записи встреч теперь легко найти на компьютере и можно хранить в облаке."
+        },
+        {
+          "text": "На платных тарифах звук встреч можно сохранять в облаке: Настройки → Встречи → «Сохранять звук встреч в облаке». Слушать и скачивать его можно в личном кабинете на сайте.",
+          "label": "Звук в облаке"
+        },
+        {
+          "text": "На экране «Встречи» есть кнопка «Открыть папку». У встречи и расшифрованного файла по правой кнопке мыши есть «Показать в Finder», на Windows «Показать в папке».",
+          "label": "Папка с записями"
+        },
+        {
+          "text": "В папке каждой встречи лежит «Расшифровка.txt». Его можно открыть любым редактором.",
+          "label": "Текст рядом со звуком"
+        },
+        {
+          "text": "Двойной щелчок по «Остановить и обработать» больше не начинает новую запись встречи.",
+          "label": "Исправления"
+        }
+      ]
+    },
+    "en": {
+      "summary": "Meeting audio in the cloud, your recordings folder in one click and the transcript next to the audio.",
+      "body": [
+        {
+          "text": "Meeting recordings are now easy to find on your computer and can be kept in the cloud."
+        },
+        {
+          "text": "On paid plans, meeting audio can be saved to the cloud: Settings → Meetings → “Save meeting audio to the cloud”. Listen to it and download it in your account on the website.",
+          "label": "Audio in the cloud"
+        },
+        {
+          "text": "The Meetings screen has an “Open folder” button. Right-click a meeting or a transcribed file to “Show in Finder”, or “Show in folder” on Windows.",
+          "label": "Recordings folder"
+        },
+        {
+          "text": "Each meeting folder has a plain text transcript you can open in any editor.",
+          "label": "Transcript next to the audio"
+        },
+        {
+          "text": "Double-clicking “Stop and process” no longer starts a new meeting recording.",
+          "label": "Fixes"
+        }
+      ]
+    }
+  },
+  "signature": "gRmHW6JsigLWozrw8J5xrYr+IEyCE7rsqgNfq1p0TTmD/PgwKQNQ2QD9AV+4I5AQdTOZlnKAMUh5rRPF/bhiBw==",
   "signed_with": "+qcNzVo/"
 }
