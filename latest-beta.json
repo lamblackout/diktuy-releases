@@ -1,117 +1,28 @@
 {
   "manifest_version": 1,
-  "version": "2.7.1",
-  "channel": "stable",
-  "pub_date": "2026-10-09T22:27:20Z",
-  "expires": "2027-04-07T22:27:20Z",
+  "version": "2.8.0-beta1",
+  "channel": "beta",
+  "pub_date": "2026-10-11T20:02:06Z",
+  "expires": "2027-04-09T20:02:06Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.7.1",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.0-beta1",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1/Diktuy-macOS.dmg",
-      "sha256": "d7988caec627a0981ec43046818273a2f6712dc557a1ea93be996062c6b23778",
-      "size": 292445580
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0-beta1/Diktuy-macOS.dmg",
+      "sha256": "229684c5785ecd7178cdfbbb56d0e530c078c07f616edf3d7f787a85d0987da6",
+      "size": 292483933
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1/Diktuy-macOS.dmg",
-      "sha256": "d7988caec627a0981ec43046818273a2f6712dc557a1ea93be996062c6b23778",
-      "size": 292445580
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1/Diktuy-macOS-x86_64.dmg",
-      "sha256": "f1d73d0579cef7621326232a2ae0cdfa91c2f6b50c5950024fd778c1360270b3",
-      "size": 352973632
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0-beta1/Diktuy-macOS.dmg",
+      "sha256": "229684c5785ecd7178cdfbbb56d0e530c078c07f616edf3d7f787a85d0987da6",
+      "size": 292483933
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.7.1/DiktuySetup.exe",
-      "sha256": "ab54075274d881cc65d70387f3d676de89c6a08f6f7ba75c0220f615706b3b9b",
-      "size": 160330264
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.0-beta1/DiktuySetup.exe",
+      "sha256": "4b9b5e870f4f605b585ed8a2596d44f3f876b80f45a9ed0cf569cf83752ce618",
+      "size": 160357330
     }
   },
-  "notes": {
-    "date": "2026-10-10",
-    "show_whats_new": true,
-    "ru": {
-      "summary": "Новый вид «Файлов» и «Встреч»: облако и цена прямо на кнопке, выбор языка.",
-      "body": [
-        {
-          "text": "Обновили экраны «Файлы», «Встречи», «Обзор» и «Учётная запись» и исправили несколько ошибок."
-        },
-        {
-          "text": "Облачная расшифровка включается тумблером, а цена видна сразу на кнопке: «Начать за 3 кредита» или «Начать бесплатно» на компьютере. Язык записи выбирается рядом.",
-          "label": "Файлы"
-        },
-        {
-          "text": "Облако и язык выбираются прямо на экране встреч. Вернулось автоопределение языка, если на встрече говорят на нескольких языках. Без ответа запись больше не начинается сама, а «Больше не предлагать» убирает вопрос.",
-          "label": "Встречи"
-        },
-        {
-          "text": "Если навести на «Кратко», видно, сколько кредитов спишет обработка записи.",
-          "label": "Цена до нажатия"
-        },
-        {
-          "text": "Ролик или музыка в браузере больше не принимаются за встречу.",
-          "label": "Видео в браузере"
-        },
-        {
-          "text": "Ролики YouTube с чужой озвучкой расшифровываются на языке оригинала.",
-          "label": "Видео по ссылке"
-        },
-        {
-          "text": "Новые версии скачиваются сами и ставятся, пока вы не за компьютером. Нажимать ничего не нужно.",
-          "label": "Обновления"
-        },
-        {
-          "text": "Если минуты закончились, надиктованное не пропадает: запись ждёт в «Истории», расшифровать её можно позже.",
-          "label": "Конец минут"
-        },
-        {
-          "text": "Настройки применяются сразу, без перезапуска. Карточка кредитов видна и у тех, кто оплатил тариф до перехода на кредиты. Языки и числа во всех текстах написаны по-русски.",
-          "label": "Исправления"
-        }
-      ]
-    },
-    "en": {
-      "summary": "A new look for Files and Meetings: the cloud and the price right on the button, plus a language picker.",
-      "body": [
-        {
-          "text": "We refreshed the Files, Meetings, Overview and Account screens and fixed a few bugs."
-        },
-        {
-          "text": "Cloud transcription is turned on with a switch, and the price is shown right on the button: “Start for 3 credits”, or “Start for free” on your computer. The recording language is picked next to it.",
-          "label": "Files"
-        },
-        {
-          "text": "The cloud and the language are chosen right on the Meetings screen. Auto-detect language is back for meetings held in several languages. Recording no longer starts on its own if you don’t answer, and “Don’t offer again” turns the prompt off.",
-          "label": "Meetings"
-        },
-        {
-          "text": "Hover over Summary to see how many credits processing the recording will take.",
-          "label": "Price before you click"
-        },
-        {
-          "text": "A video or music playing in the browser is no longer mistaken for a meeting.",
-          "label": "Video in the browser"
-        },
-        {
-          "text": "YouTube videos with a dubbed audio track are transcribed in the original language.",
-          "label": "Video by link"
-        },
-        {
-          "text": "New versions download on their own and install while you’re away from your computer. No clicks needed.",
-          "label": "Updates"
-        },
-        {
-          "text": "If you run out of minutes, your dictation isn’t lost: the recording waits in History, so you can transcribe it later.",
-          "label": "Out of minutes"
-        },
-        {
-          "text": "Settings now apply right away, without a restart. The credits card is shown to people who paid before the switch to credits too. Language names and number forms read correctly throughout.",
-          "label": "Fixes"
-        }
-      ]
-    }
-  },
-  "signature": "Q/leKWOV4hHTc/m+VmTfV0yENpWoG0/vY4OfjkKvL+FwxpY8AAcon2ujZpRZQ23Zf4BaHmu7u8mr2yvP/GdmBQ==",
+  "signature": "0iZ1zup//1LiOB2UAplPOvXCneF14jfD9yse1Q41MKJwWuDJTfgVVzfXDsmJPgVoLl4UZl4J/yoeR4INFCoDDg==",
   "signed_with": "+qcNzVo/"
 }
