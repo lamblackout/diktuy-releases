@@ -1,28 +1,112 @@
 {
   "manifest_version": 1,
-  "version": "2.8.1-beta1",
-  "channel": "beta",
-  "pub_date": "2026-10-17T20:05:09Z",
-  "expires": "2027-04-15T20:05:09Z",
+  "version": "2.8.1",
+  "channel": "stable",
+  "pub_date": "2026-10-17T22:43:06Z",
+  "expires": "2027-04-15T22:43:06Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.1-beta1",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.1",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1-beta1/Diktuy-macOS.dmg",
-      "sha256": "d5591c859057d19c6be3de197f4ffd9469eb4ee4be5668e2ac2beb417cf7ca9f",
-      "size": 292702847
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1/Diktuy-macOS.dmg",
+      "sha256": "54170ffa5fc9a43c1f00ba304c95c8f5b00f37e431d3baf26dcf4575735d89f9",
+      "size": 292707043
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1-beta1/Diktuy-macOS.dmg",
-      "sha256": "d5591c859057d19c6be3de197f4ffd9469eb4ee4be5668e2ac2beb417cf7ca9f",
-      "size": 292702847
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1/Diktuy-macOS.dmg",
+      "sha256": "54170ffa5fc9a43c1f00ba304c95c8f5b00f37e431d3baf26dcf4575735d89f9",
+      "size": 292707043
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1-beta1/DiktuySetup.exe",
-      "sha256": "fab0fdb611d5fc6ab3c791a7d93e88064c861ebd156a7971c21e6ee2b5a8c4af",
-      "size": 160555854
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1/DiktuySetup.exe",
+      "sha256": "6a7368bfdd8f2fc9811dbdedb0a6a21b6d0fd6ed3ac8409bc35e2a2f819d04a1",
+      "size": 160583379
     }
   },
-  "signature": "gtgl8vsaE+NPxj8zR+LrEsE92kJk4tEU1xsbfUaaa3uFIDjfUqqyjTMLtisqmvI1A4FIAsUfl7kmMXdKUlhfDg==",
+  "notes": {
+    "date": "2026-10-18",
+    "show_whats_new": true,
+    "ru": {
+      "summary": "Свои данные у каждого аккаунта, подсказки в настройках и быстрее короткие фразы.",
+      "body": [
+        {
+          "text": "Ускорили отправку диктовки, добавили подсказки в настройки и исправили несколько ошибок."
+        },
+        {
+          "text": "Короткие фразы распознаются быстрее, даже если связь нестабильна.",
+          "label": "Скорость"
+        },
+        {
+          "text": "У каждого аккаунта на компьютере своя история, словарь и автозамены. После входа в другой аккаунт прежние данные не видны.",
+          "label": "Аккаунты"
+        },
+        {
+          "text": "Встречи и файлы в «Истории» умеют то же, что на своих экранах: сохранить в TXT, Markdown или SRT, послушать звук, показать в папке.",
+          "label": "История"
+        },
+        {
+          "text": "Запись распознаётся заново, а не повторяет прежний текст. Минуты за неё второй раз не списываются.",
+          "label": "Транскрибировать заново"
+        },
+        {
+          "text": "У переключателей появился значок «i» с пояснением. Для облачной расшифровки доступны все языки.",
+          "label": "Настройки"
+        },
+        {
+          "text": "Версия из Store обновляется сама и может поставить значок на рабочий стол.",
+          "label": "Microsoft Store"
+        },
+        {
+          "text": "Диктуй предлагает перенести себя в «Программы». Сочетания по умолчанию: правый ⌘ для диктовки, правый ⌥ для трансформации. Звук видео больше не попадает в начало записи.",
+          "label": "Mac"
+        },
+        {
+          "text": "Сочетание клавиш сохраняется с первого нажатия галочки. Текст в инструкцию агента вставляется без чужого оформления. В «Помощи» указан полный номер версии.",
+          "label": "Исправления"
+        }
+      ]
+    },
+    "en": {
+      "summary": "Separate data for each account, hints in Settings and faster short phrases.",
+      "body": [
+        {
+          "text": "Dictation is sent faster, Settings have hints, and several bugs are fixed."
+        },
+        {
+          "text": "Short phrases are transcribed faster, even on an unstable connection.",
+          "label": "Speed"
+        },
+        {
+          "text": "Each account on the computer has its own history, dictionary and replacements. After you sign in to another account, the previous data is hidden.",
+          "label": "Accounts"
+        },
+        {
+          "text": "Meetings and files in History can do the same as on their own screens: save as TXT, Markdown or SRT, play the audio, show in folder.",
+          "label": "History"
+        },
+        {
+          "text": "The recording is transcribed again instead of repeating the old text. Minutes for it are not charged twice.",
+          "label": "Transcribe again"
+        },
+        {
+          "text": "Toggles now have an “i” icon with an explanation. All languages are available for cloud transcription.",
+          "label": "Settings"
+        },
+        {
+          "text": "The Store version updates itself and can add a desktop icon.",
+          "label": "Microsoft Store"
+        },
+        {
+          "text": "Diktuy offers to move itself to Applications. Default shortcuts: right ⌘ for dictation, right ⌥ for Transform. Video sound no longer gets into the start of a recording.",
+          "label": "Mac"
+        },
+        {
+          "text": "A shortcut is saved on the first click of the check mark. Text pasted into an agent's instruction keeps no outside formatting. Help shows the full version number.",
+          "label": "Fixes"
+        }
+      ]
+    }
+  },
+  "signature": "g9BpXARbk14MfHA1mXHWv0EI9xKx0DdYuocmmAmaWY2yTEWjX6cynBqsKjJW/CkbwSmueXro592sIBQF5LBGBA==",
   "signed_with": "+qcNzVo/"
 }
