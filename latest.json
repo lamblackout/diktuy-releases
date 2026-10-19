@@ -1,48 +1,48 @@
 {
   "manifest_version": 1,
-  "version": "2.8.2",
+  "version": "2.8.3",
   "channel": "stable",
-  "pub_date": "2026-10-19T10:49:03Z",
-  "expires": "2027-04-17T10:49:03Z",
+  "pub_date": "2026-10-19T16:58:57Z",
+  "expires": "2027-04-17T16:58:57Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.2",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.3",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.2/Diktuy-macOS.dmg",
-      "sha256": "419a223fccb102f4bd4a5e89c96e1d845f3282906a25fe21ace4cb1684db9c1e",
-      "size": 292708319
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.3/Diktuy-macOS.dmg",
+      "sha256": "265c023977d98095c345cc45bc336ab96175ba94c43288281c64184c5a536fda",
+      "size": 292728261
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.2/Diktuy-macOS.dmg",
-      "sha256": "419a223fccb102f4bd4a5e89c96e1d845f3282906a25fe21ace4cb1684db9c1e",
-      "size": 292708319
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.3/Diktuy-macOS.dmg",
+      "sha256": "265c023977d98095c345cc45bc336ab96175ba94c43288281c64184c5a536fda",
+      "size": 292728261
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.2/DiktuySetup.exe",
-      "sha256": "dac157a0ff859df24d3445c572e061b4b54b606458460f82feee45380f81b3fc",
-      "size": 160578563
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.3/DiktuySetup.exe",
+      "sha256": "36c7ad0918525aebb616884cd93b03e0bcc5206bd9e3b1eb3efa4e80a27fdfdc",
+      "size": 160604432
     }
   },
   "notes": {
     "date": "2026-10-19",
     "show_whats_new": false,
     "ru": {
-      "summary": "Исправили кнопки в окне встречи и файла на Mac.",
+      "summary": "Новый верх окна на Mac.",
       "body": [
         {
-          "text": "Исправили ошибку на Mac: в окне встречи или файла переставали нажиматься кнопки и вкладки «Кратко», «Протокол», «Задачи», «Свой запрос», «Скопировать текст» и «Удалить»."
+          "text": "На Mac убрали чёрную полосу сверху окна. В macOS 26 и 27 кнопки окна теперь такие же, как у других программ."
         }
       ]
     },
     "en": {
-      "summary": "Fixed buttons in the meeting and file window on Mac.",
+      "summary": "New window top on Mac.",
       "body": [
         {
-          "text": "Fixed an issue on Mac where buttons and tabs in a meeting or file window stopped responding: Summary, Minutes, Action items, Your request, Copy text and Delete."
+          "text": "Removed the black bar at the top of the window on Mac. On macOS 26 and 27, the window buttons now match other apps."
         }
       ]
     }
   },
-  "signature": "W87dCgZdKUzwI1Aqh4U3gjCO3pNWEiSu/cirHJXKx6IFXhw3lCBC6NEdD5Ag3cvNTg5D4nDeGjLQw1Ieb6DFBA==",
+  "signature": "FLUq72bcJpvD5YSmMm25OSySTkjshrAmlaBwGpP9f7z4CFsVmZc/3PnWxzs6WEB1YLZFxuH0crm7TZI7VgrKCw==",
   "signed_with": "+qcNzVo/"
 }
