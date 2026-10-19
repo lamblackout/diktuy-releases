@@ -1,117 +1,48 @@
 {
   "manifest_version": 1,
-  "version": "2.8.1",
+  "version": "2.8.2",
   "channel": "stable",
-  "pub_date": "2026-10-17T22:47:30Z",
-  "expires": "2027-04-15T22:47:30Z",
+  "pub_date": "2026-10-19T10:49:03Z",
+  "expires": "2027-04-17T10:49:03Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.1",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.2",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1/Diktuy-macOS.dmg",
-      "sha256": "54170ffa5fc9a43c1f00ba304c95c8f5b00f37e431d3baf26dcf4575735d89f9",
-      "size": 292707043
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.2/Diktuy-macOS.dmg",
+      "sha256": "419a223fccb102f4bd4a5e89c96e1d845f3282906a25fe21ace4cb1684db9c1e",
+      "size": 292708319
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1/Diktuy-macOS.dmg",
-      "sha256": "54170ffa5fc9a43c1f00ba304c95c8f5b00f37e431d3baf26dcf4575735d89f9",
-      "size": 292707043
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1/Diktuy-macOS-x86_64.dmg",
-      "sha256": "2fcb87cdcca0f9c075fa246d834001ad8f9e23dd451ce50522d2ce57a05e0236",
-      "size": 353233733
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.2/Diktuy-macOS.dmg",
+      "sha256": "419a223fccb102f4bd4a5e89c96e1d845f3282906a25fe21ace4cb1684db9c1e",
+      "size": 292708319
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.1/DiktuySetup.exe",
-      "sha256": "6a7368bfdd8f2fc9811dbdedb0a6a21b6d0fd6ed3ac8409bc35e2a2f819d04a1",
-      "size": 160583379
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.2/DiktuySetup.exe",
+      "sha256": "dac157a0ff859df24d3445c572e061b4b54b606458460f82feee45380f81b3fc",
+      "size": 160578563
     }
   },
   "notes": {
-    "date": "2026-10-18",
-    "show_whats_new": true,
+    "date": "2026-10-19",
+    "show_whats_new": false,
     "ru": {
-      "summary": "Свои данные у каждого аккаунта, подсказки в настройках и быстрее короткие фразы.",
+      "summary": "Исправили кнопки в окне встречи и файла на Mac.",
       "body": [
         {
-          "text": "Ускорили отправку диктовки, добавили подсказки в настройки и исправили несколько ошибок."
-        },
-        {
-          "text": "Короткие фразы распознаются быстрее, даже если связь нестабильна.",
-          "label": "Скорость"
-        },
-        {
-          "text": "У каждого аккаунта на компьютере своя история, словарь и автозамены. После входа в другой аккаунт прежние данные не видны.",
-          "label": "Аккаунты"
-        },
-        {
-          "text": "Встречи и файлы в «Истории» умеют то же, что на своих экранах: сохранить в TXT, Markdown или SRT, послушать звук, показать в папке.",
-          "label": "История"
-        },
-        {
-          "text": "Запись распознаётся заново, а не повторяет прежний текст. Минуты за неё второй раз не списываются.",
-          "label": "Транскрибировать заново"
-        },
-        {
-          "text": "У переключателей появился значок «i» с пояснением. Для облачной расшифровки доступны все языки.",
-          "label": "Настройки"
-        },
-        {
-          "text": "Версия из Store обновляется сама и может поставить значок на рабочий стол.",
-          "label": "Microsoft Store"
-        },
-        {
-          "text": "Диктуй предлагает перенести себя в «Программы». Сочетания по умолчанию: правый ⌘ для диктовки, правый ⌥ для трансформации. Звук видео больше не попадает в начало записи.",
-          "label": "Mac"
-        },
-        {
-          "text": "Сочетание клавиш сохраняется с первого нажатия галочки. Текст в инструкцию агента вставляется без чужого оформления. В «Помощи» указан полный номер версии.",
-          "label": "Исправления"
+          "text": "Исправили ошибку на Mac: в окне встречи или файла переставали нажиматься кнопки и вкладки «Кратко», «Протокол», «Задачи», «Свой запрос», «Скопировать текст» и «Удалить»."
         }
       ]
     },
     "en": {
-      "summary": "Separate data for each account, hints in Settings and faster short phrases.",
+      "summary": "Fixed buttons in the meeting and file window on Mac.",
       "body": [
         {
-          "text": "Dictation is sent faster, Settings have hints, and several bugs are fixed."
-        },
-        {
-          "text": "Short phrases are transcribed faster, even on an unstable connection.",
-          "label": "Speed"
-        },
-        {
-          "text": "Each account on the computer has its own history, dictionary and replacements. After you sign in to another account, the previous data is hidden.",
-          "label": "Accounts"
-        },
-        {
-          "text": "Meetings and files in History can do the same as on their own screens: save as TXT, Markdown or SRT, play the audio, show in folder.",
-          "label": "History"
-        },
-        {
-          "text": "The recording is transcribed again instead of repeating the old text. Minutes for it are not charged twice.",
-          "label": "Transcribe again"
-        },
-        {
-          "text": "Toggles now have an “i” icon with an explanation. All languages are available for cloud transcription.",
-          "label": "Settings"
-        },
-        {
-          "text": "The Store version updates itself and can add a desktop icon.",
-          "label": "Microsoft Store"
-        },
-        {
-          "text": "Diktuy offers to move itself to Applications. Default shortcuts: right ⌘ for dictation, right ⌥ for Transform. Video sound no longer gets into the start of a recording.",
-          "label": "Mac"
-        },
-        {
-          "text": "A shortcut is saved on the first click of the check mark. Text pasted into an agent's instruction keeps no outside formatting. Help shows the full version number.",
-          "label": "Fixes"
+          "text": "Fixed an issue on Mac where buttons and tabs in a meeting or file window stopped responding: Summary, Minutes, Action items, Your request, Copy text and Delete."
         }
       ]
     }
   },
-  "signature": "6aW78ZJaQUvamzlHAFu8Y5g7QUWmjzH96IhDYllk+5MtdYBwWascYA3ZL2W8j6z/TRnPLlhzWWsR4U+bdAjpAA==",
+  "signature": "W87dCgZdKUzwI1Aqh4U3gjCO3pNWEiSu/cirHJXKx6IFXhw3lCBC6NEdD5Ag3cvNTg5D4nDeGjLQw1Ieb6DFBA==",
   "signed_with": "+qcNzVo/"
 }
