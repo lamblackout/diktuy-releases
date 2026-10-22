@@ -1,53 +1,60 @@
 {
   "manifest_version": 1,
-  "version": "2.8.3",
+  "version": "2.9.0",
   "channel": "stable",
-  "pub_date": "2026-10-19T17:05:45Z",
-  "expires": "2027-04-17T17:05:45Z",
+  "pub_date": "2026-10-22T19:24:44Z",
+  "expires": "2027-04-20T19:24:44Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.8.3",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.9.0",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.3/Diktuy-macOS.dmg",
-      "sha256": "265c023977d98095c345cc45bc336ab96175ba94c43288281c64184c5a536fda",
-      "size": 292728261
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.9.0/Diktuy-macOS.dmg",
+      "sha256": "475f94d864adfdab887147d2c700fbb0f71e21c425e471262c74667b12922b26",
+      "size": 292969626
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.3/Diktuy-macOS.dmg",
-      "sha256": "265c023977d98095c345cc45bc336ab96175ba94c43288281c64184c5a536fda",
-      "size": 292728261
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.3/Diktuy-macOS-x86_64.dmg",
-      "sha256": "3be88e8cf0eab02acb48af426f3aca62cfe69f8490a107a4bda9f5537e7e0845",
-      "size": 353251007
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.9.0/Diktuy-macOS.dmg",
+      "sha256": "475f94d864adfdab887147d2c700fbb0f71e21c425e471262c74667b12922b26",
+      "size": 292969626
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.8.3/DiktuySetup.exe",
-      "sha256": "36c7ad0918525aebb616884cd93b03e0bcc5206bd9e3b1eb3efa4e80a27fdfdc",
-      "size": 160604432
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.9.0/DiktuySetup.exe",
+      "sha256": "7d9fb3ce28801ab5814144d97d4198e77975e0209b48559cacbd7d2b271d369c",
+      "size": 160721869
     }
   },
   "notes": {
-    "date": "2026-10-19",
-    "show_whats_new": false,
+    "date": "2026-10-22",
+    "show_whats_new": true,
     "ru": {
-      "summary": "Новый верх окна на Mac.",
+      "summary": "Видеоуроки для разделов, улучшенная автозамена и переименование встреч.",
       "body": [
         {
-          "text": "На Mac убрали чёрную полосу сверху окна. В macOS 26 и 27 кнопки окна теперь такие же, как у других программ."
+          "text": "Видеоуроки для разделов «История», «Встречи», «Файлы», «Словарь», «Автозамена» и «Агенты». Чтобы посмотреть короткое видео, нажмите на строку «Как это работает». Все видеоуроки собраны в разделе «Помощь»."
+        },
+        {
+          "text": "Улучшена автозамена. Теперь замена работает только на целые слова, а заглавные буквы остаются на своих местах."
+        },
+        {
+          "text": "В разделе «Встречи» теперь можно переименовать встречу, нажав на значок карандаша."
         }
       ]
     },
     "en": {
-      "summary": "New window top on Mac.",
+      "summary": "Video tutorials for sections, improved auto-replace and meeting renaming.",
       "body": [
         {
-          "text": "Removed the black bar at the top of the window on Mac. On macOS 26 and 27, the window buttons now match other apps."
+          "text": "Video tutorials for History, Meetings, Files, Dictionary, Auto-replace and Agents. To watch a short video, click “How it works”. All video tutorials are in Help."
+        },
+        {
+          "text": "Improved auto-replace. It now works on whole words only, and capital letters stay in place."
+        },
+        {
+          "text": "In Meetings, you can now rename a meeting by clicking the pencil icon."
         }
       ]
     }
   },
-  "signature": "OX1t1VhWhASgrfdVeNARIRqKqYABkpU7CVhVjeN3Eh2zbfyzoDWL5RowcKshK2UqvG4cIswNVGN+E6iYduj/Dw==",
+  "signature": "VQXCptM5oBzOfGD1Iyr+DaA57cs0/jKqdnanC+DqhxbfJbO+jYQNINrfX7CsyxjVYsoVo8+7zv2Ba5z1ry7OAQ==",
   "signed_with": "+qcNzVo/"
 }
