@@ -1,65 +1,84 @@
 {
   "manifest_version": 1,
-  "version": "2.9.0",
+  "version": "2.10.0",
   "channel": "stable",
-  "pub_date": "2026-10-22T19:30:35Z",
-  "expires": "2027-04-20T19:30:35Z",
+  "pub_date": "2026-10-31T11:22:40Z",
+  "expires": "2027-04-29T11:22:40Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.9.0",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.10.0",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.9.0/Diktuy-macOS.dmg",
-      "sha256": "475f94d864adfdab887147d2c700fbb0f71e21c425e471262c74667b12922b26",
-      "size": 292969626
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.0/Diktuy-macOS.dmg",
+      "sha256": "ddd3ccd3a0bce9ac4252cdc54102a10b9d55540beb65ae0f58417b17062c05e9",
+      "size": 293170761
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.9.0/Diktuy-macOS.dmg",
-      "sha256": "475f94d864adfdab887147d2c700fbb0f71e21c425e471262c74667b12922b26",
-      "size": 292969626
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.9.0/Diktuy-macOS-x86_64.dmg",
-      "sha256": "9b4a4fd999cc1d5450d6e7981758f8ee32a4380a773268e53768cf4726b8ef6d",
-      "size": 353379221
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.0/Diktuy-macOS.dmg",
+      "sha256": "ddd3ccd3a0bce9ac4252cdc54102a10b9d55540beb65ae0f58417b17062c05e9",
+      "size": 293170761
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.9.0/DiktuySetup.exe",
-      "sha256": "7d9fb3ce28801ab5814144d97d4198e77975e0209b48559cacbd7d2b271d369c",
-      "size": 160721869
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.0/DiktuySetup.exe",
+      "sha256": "0cf074a0c81d259fb6711db73a49ac3465b63d0ddafd1748da6fce74aac87c71",
+      "size": 160092733
     }
   },
   "notes": {
-    "date": "2026-10-22",
+    "date": "2026-10-31",
     "show_whats_new": true,
     "ru": {
-      "summary": "Видеоуроки для разделов, улучшенная автозамена и переименование встреч.",
+      "summary": "Выключение микрофона во время встречи, пробел после текста и удаление записи встречи.",
       "body": [
         {
-          "text": "Видеоуроки для разделов «История», «Встречи», «Файлы», «Словарь», «Автозамена» и «Агенты». Чтобы посмотреть короткое видео, нажмите на строку «Как это работает». Все видеоуроки собраны в разделе «Помощь»."
+          "text": "Во время записи встречи теперь можно выключить свой микрофон: нажмите на значок микрофона в окне записи. Собеседники продолжат записываться."
         },
         {
-          "text": "Улучшена автозамена. Теперь замена работает только на целые слова, а заглавные буквы остаются на своих местах."
+          "text": "Диктовка во время встречи больше не попадает в расшифровку встречи."
         },
         {
-          "text": "В разделе «Встречи» теперь можно переименовать встречу, нажав на значок карандаша."
+          "text": "Добавлен пробел после текста. Включите в «Настройках» пункт «Добавлять пробел после текста», и фразы из нескольких диктовок подряд не будут слипаться."
+        },
+        {
+          "text": "Запись встречи можно удалить, не дожидаясь конца: нажмите на значок корзины в окне записи."
+        },
+        {
+          "text": "В разделе «Файлы» можно добавить несколько файлов подряд: перетащите их по одному или выберите сразу несколько. Разделение по спикерам теперь сохраняется для каждого файла."
+        },
+        {
+          "text": "Расшифровка встреч стала точнее: меньше лишних фраз там, где все молчали."
+        },
+        {
+          "text": "Исправлены ошибки и улучшена работа приложения."
         }
       ]
     },
     "en": {
-      "summary": "Video tutorials for sections, improved auto-replace and meeting renaming.",
+      "summary": "Mute your microphone during meetings, a space after the text and deleting a meeting recording.",
       "body": [
         {
-          "text": "Video tutorials for History, Meetings, Files, Dictionary, Auto-replace and Agents. To watch a short video, click “How it works”. All video tutorials are in Help."
+          "text": "You can now turn off your microphone while recording a meeting: click the microphone icon in the recording window. Other participants are still recorded."
         },
         {
-          "text": "Improved auto-replace. It now works on whole words only, and capital letters stay in place."
+          "text": "Dictation during a meeting no longer ends up in the meeting transcript."
         },
         {
-          "text": "In Meetings, you can now rename a meeting by clicking the pencil icon."
+          "text": "Added a space after the text. Turn on “Add a space after the text” in Settings, and consecutive dictations won't run together."
+        },
+        {
+          "text": "You can delete a meeting recording without waiting for it to end: click the trash icon in the recording window."
+        },
+        {
+          "text": "In Files, you can add several files in a row: drag them in one by one or select several at once. Speaker separation is now saved for each file."
+        },
+        {
+          "text": "Meeting transcripts are more accurate, with fewer stray phrases during silence."
+        },
+        {
+          "text": "Bug fixes and performance improvements."
         }
       ]
     }
   },
-  "signature": "YVqABnWK/zKOTEvRv0NxAFG7FoBluh+TmLJ4HgBRToeER+pUc0cV9PymTuyrLBt78i4AhjET05mKI5hgZ7b8DQ==",
+  "signature": "Jm6EIXpt6eGFwsAkBNN600Lfb4Fs9LiQiRCud4xTz7FYyQ/tqHmMNz1HmABo6YANDU/cvhxSBcp7Tehl8AbBCA==",
   "signed_with": "+qcNzVo/"
 }
