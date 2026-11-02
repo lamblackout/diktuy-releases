@@ -1,89 +1,48 @@
 {
   "manifest_version": 1,
-  "version": "2.10.0",
+  "version": "2.10.1",
   "channel": "stable",
-  "pub_date": "2026-10-31T11:23:33Z",
-  "expires": "2027-04-29T11:23:33Z",
+  "pub_date": "2026-11-02T15:56:26Z",
+  "expires": "2027-05-01T15:56:26Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.10.0",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.10.1",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.0/Diktuy-macOS.dmg",
-      "sha256": "ddd3ccd3a0bce9ac4252cdc54102a10b9d55540beb65ae0f58417b17062c05e9",
-      "size": 293170761
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.1/Diktuy-macOS.dmg",
+      "sha256": "209778c62aa410b931d7108c588ee81adce2c5fdce25f9763cfb4b73a81f214d",
+      "size": 293107636
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.0/Diktuy-macOS.dmg",
-      "sha256": "ddd3ccd3a0bce9ac4252cdc54102a10b9d55540beb65ae0f58417b17062c05e9",
-      "size": 293170761
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.0/Diktuy-macOS-x86_64.dmg",
-      "sha256": "e494a2f3e617e96564a28e512c19f27e8eb286ecdf80eff9755d21315adda6d8",
-      "size": 353584321
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.1/Diktuy-macOS.dmg",
+      "sha256": "209778c62aa410b931d7108c588ee81adce2c5fdce25f9763cfb4b73a81f214d",
+      "size": 293107636
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.0/DiktuySetup.exe",
-      "sha256": "0cf074a0c81d259fb6711db73a49ac3465b63d0ddafd1748da6fce74aac87c71",
-      "size": 160092733
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.1/DiktuySetup.exe",
+      "sha256": "a46867b84bb835bbde0a3b6e7ddecf5cdb144661a54773e1b3256ee4cf8c136e",
+      "size": 160078433
     }
   },
   "notes": {
-    "date": "2026-10-31",
-    "show_whats_new": true,
+    "date": "2026-11-02",
+    "show_whats_new": false,
     "ru": {
-      "summary": "Выключение микрофона во время встречи, пробел после текста и удаление записи встречи.",
+      "summary": "Исправили диктовку на Mac с процессором Intel.",
       "body": [
         {
-          "text": "Во время записи встречи теперь можно выключить свой микрофон: нажмите на значок микрофона в окне записи. Собеседники продолжат записываться."
-        },
-        {
-          "text": "Диктовка во время встречи больше не попадает в расшифровку встречи."
-        },
-        {
-          "text": "Добавлен пробел после текста. Включите в «Настройках» пункт «Добавлять пробел после текста», и фразы из нескольких диктовок подряд не будут слипаться."
-        },
-        {
-          "text": "Запись встречи можно удалить, не дожидаясь конца: нажмите на значок корзины в окне записи."
-        },
-        {
-          "text": "В разделе «Файлы» можно добавить несколько файлов подряд: перетащите их по одному или выберите сразу несколько. Разделение по спикерам теперь сохраняется для каждого файла."
-        },
-        {
-          "text": "Расшифровка встреч стала точнее: меньше лишних фраз там, где все молчали."
-        },
-        {
-          "text": "Исправлены ошибки и улучшена работа приложения."
+          "text": "Исправили ошибку, из-за которой на Mac с процессором Intel речь распознавалась неправильно."
         }
       ]
     },
     "en": {
-      "summary": "Mute your microphone during meetings, a space after the text and deleting a meeting recording.",
+      "summary": "Fixed dictation on Intel-based Macs.",
       "body": [
         {
-          "text": "You can now turn off your microphone while recording a meeting: click the microphone icon in the recording window. Other participants are still recorded."
-        },
-        {
-          "text": "Dictation during a meeting no longer ends up in the meeting transcript."
-        },
-        {
-          "text": "Added a space after the text. Turn on “Add a space after the text” in Settings, and consecutive dictations won't run together."
-        },
-        {
-          "text": "You can delete a meeting recording without waiting for it to end: click the trash icon in the recording window."
-        },
-        {
-          "text": "In Files, you can add several files in a row: drag them in one by one or select several at once. Speaker separation is now saved for each file."
-        },
-        {
-          "text": "Meeting transcripts are more accurate, with fewer stray phrases during silence."
-        },
-        {
-          "text": "Bug fixes and performance improvements."
+          "text": "Fixed an issue where speech was recognized incorrectly on Intel-based Macs."
         }
       ]
     }
   },
-  "signature": "i5UG7QWQ2GZR4XKtf3HJaD7CnAKPkgYHioII3HC+XpnbOb6RUqWFD29Knlrcf7ugebYvhWS2LO8aasvnB+EgBA==",
+  "signature": "YcTEPDl3/NA4ecH1PraVgQzAMZOrShkXT/re1bAlyzoo0Y+51gutMn+FA7h0UuRWHdnmBDn3ee68jXW7mEROCw==",
   "signed_with": "+qcNzVo/"
 }
