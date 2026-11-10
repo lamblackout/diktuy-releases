@@ -1,53 +1,48 @@
 {
   "manifest_version": 1,
-  "version": "2.10.1",
+  "version": "2.10.2",
   "channel": "stable",
-  "pub_date": "2026-11-02T16:02:51Z",
-  "expires": "2027-05-01T16:02:51Z",
+  "pub_date": "2026-11-10T19:35:07Z",
+  "expires": "2027-05-09T19:35:07Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.10.1",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.10.2",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.1/Diktuy-macOS.dmg",
-      "sha256": "209778c62aa410b931d7108c588ee81adce2c5fdce25f9763cfb4b73a81f214d",
-      "size": 293107636
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.2/Diktuy-macOS.dmg",
+      "sha256": "98d1a4a37f3a57b4ec1fccd6c3a1e896195d2975a24145840cca47bb7683d3f1",
+      "size": 293121121
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.1/Diktuy-macOS.dmg",
-      "sha256": "209778c62aa410b931d7108c588ee81adce2c5fdce25f9763cfb4b73a81f214d",
-      "size": 293107636
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.1/Diktuy-macOS-x86_64.dmg",
-      "sha256": "b289dd1cb1032b8c2fd48ab5b7604aecd86ca4afd0f9f48b719f8d4fe6e40c2b",
-      "size": 353441939
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.2/Diktuy-macOS.dmg",
+      "sha256": "98d1a4a37f3a57b4ec1fccd6c3a1e896195d2975a24145840cca47bb7683d3f1",
+      "size": 293121121
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.1/DiktuySetup.exe",
-      "sha256": "a46867b84bb835bbde0a3b6e7ddecf5cdb144661a54773e1b3256ee4cf8c136e",
-      "size": 160078433
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.2/DiktuySetup.exe",
+      "sha256": "9569ff707c2596568e569c570ed75a11cc158033978b8fc4af16bbf2661d6b5c",
+      "size": 160134946
     }
   },
   "notes": {
-    "date": "2026-11-02",
+    "date": "2026-11-10",
     "show_whats_new": false,
     "ru": {
-      "summary": "Исправили диктовку на Mac с процессором Intel.",
+      "summary": "Исправили определение встреч на Windows 11.",
       "body": [
         {
-          "text": "Исправили ошибку, из-за которой на Mac с процессором Intel речь распознавалась неправильно."
+          "text": "Исправили ошибку, из-за которой на свежих версиях Windows 11 встречи не определялись автоматически."
         }
       ]
     },
     "en": {
-      "summary": "Fixed dictation on Intel-based Macs.",
+      "summary": "Fixed meeting detection on Windows 11.",
       "body": [
         {
-          "text": "Fixed an issue where speech was recognized incorrectly on Intel-based Macs."
+          "text": "Fixed an issue where meetings were not detected automatically on recent versions of Windows 11."
         }
       ]
     }
   },
-  "signature": "QhtS8jyRM41avd4GoVd3PNCfMQmAqFC32Hqe8oqCxwzcjyxlX/3U32jhn2Pqf+bgTHDt72z2QXAJjX94+nmjCA==",
+  "signature": "NDsMc3DCwgAxJVt15BT2cc6Sddw8OdtCoCj/irP0JOhfAklmoIBB7osdGEIdV9l5f0UByv2EzqY5VYnZ9eHgBw==",
   "signed_with": "+qcNzVo/"
 }
