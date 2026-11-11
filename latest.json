@@ -1,53 +1,48 @@
 {
   "manifest_version": 1,
-  "version": "2.10.2",
+  "version": "2.10.3",
   "channel": "stable",
-  "pub_date": "2026-11-10T19:39:26Z",
-  "expires": "2027-05-09T19:39:26Z",
+  "pub_date": "2026-11-11T16:03:14Z",
+  "expires": "2027-05-10T16:03:14Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.10.2",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.10.3",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.2/Diktuy-macOS.dmg",
-      "sha256": "98d1a4a37f3a57b4ec1fccd6c3a1e896195d2975a24145840cca47bb7683d3f1",
-      "size": 293121121
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.3/Diktuy-macOS.dmg",
+      "sha256": "97874115077e9424d6ce519b174d0d79e34471f8ffb128f4284527ade4191cea",
+      "size": 293126518
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.2/Diktuy-macOS.dmg",
-      "sha256": "98d1a4a37f3a57b4ec1fccd6c3a1e896195d2975a24145840cca47bb7683d3f1",
-      "size": 293121121
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.2/Diktuy-macOS-x86_64.dmg",
-      "sha256": "b3d7ecf1ba0da5837f66f85f5a4a6de0f21d125ef9b0535f3617b5027dda891c",
-      "size": 353463044
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.3/Diktuy-macOS.dmg",
+      "sha256": "97874115077e9424d6ce519b174d0d79e34471f8ffb128f4284527ade4191cea",
+      "size": 293126518
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.2/DiktuySetup.exe",
-      "sha256": "9569ff707c2596568e569c570ed75a11cc158033978b8fc4af16bbf2661d6b5c",
-      "size": 160134946
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.3/DiktuySetup.exe",
+      "sha256": "d347f8f677acdf9155bdec49d495dd7ff0c618df08f43234f5b6561a5c1067be",
+      "size": 160168433
     }
   },
   "notes": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "show_whats_new": false,
     "ru": {
-      "summary": "Исправили определение встреч на Windows 11.",
+      "summary": "Исправили первый запуск на Windows с небольшим экраном.",
       "body": [
         {
-          "text": "Исправили ошибку, из-за которой на свежих версиях Windows 11 встречи не определялись автоматически."
+          "text": "Исправили ошибку, из-за которой на ноутбуках с небольшим экраном не удавалось пройти настройку при первом запуске."
         }
       ]
     },
     "en": {
-      "summary": "Fixed meeting detection on Windows 11.",
+      "summary": "Fixed first launch on Windows laptops with small screens.",
       "body": [
         {
-          "text": "Fixed an issue where meetings were not detected automatically on recent versions of Windows 11."
+          "text": "Fixed an issue where setup could not be completed at first launch on laptops with small screens."
         }
       ]
     }
   },
-  "signature": "SWITU02oVaHcfSNbuRgvYcHk3SoORb9L2wG9M90WemgsL69yJfw5iJ4DjljTKIqRv9m38I9QQodp1+riEnp3Bw==",
+  "signature": "m7bDuY1cahuBOO/Y+M2w/kD0tNAeVbStgZyuy8Zid1ZfTyo23XVT4Q6//X6A4NSYwjIRbkbKaORQSXvJ9B+3DA==",
   "signed_with": "+qcNzVo/"
 }
