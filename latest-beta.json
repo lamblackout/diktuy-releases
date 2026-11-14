@@ -2,8 +2,8 @@
   "manifest_version": 1,
   "version": "2.11.0",
   "channel": "stable",
-  "pub_date": "2026-11-14T09:14:55Z",
-  "expires": "2027-05-13T09:14:55Z",
+  "pub_date": "2026-11-14T09:22:58Z",
+  "expires": "2027-05-13T09:22:58Z",
   "min_supported_version": "1.10.0",
   "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.11.0",
   "platforms": {
@@ -16,6 +16,11 @@
       "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/Diktuy-macOS.dmg",
       "sha256": "c11098303c0db7da5bb30dc0d8e1e10177e0d988c87d8638ac709c2fd97064ca",
       "size": 323695236
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/Diktuy-macOS-x86_64.dmg",
+      "sha256": "382543c3e4963d31c504a5ef8182fde5d156be92dab064b9ed889de0cf213557",
+      "size": 385446829
     },
     "windows-x86_64": {
       "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/DiktuySetup.exe",
@@ -55,6 +60,6 @@
       ]
     }
   },
-  "signature": "GzSfH4BpjofTWVjCeRKz11nRc7DExercXTkgkQliEqLAqrgx0IATU9tLuh7X9Cy2hkL+xHCRnPP6Zfoqitw3AA==",
+  "signature": "yKZpQ3SCGELPMc3odfOsqNoNNj4Wak2qn1p4smgIfMZVYyfHNqUcCQQI/gwscvxHSL3i9DMZE4qjmqVu5V2ECg==",
   "signed_with": "+qcNzVo/"
 }
