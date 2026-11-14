@@ -1,53 +1,60 @@
 {
   "manifest_version": 1,
-  "version": "2.10.3",
+  "version": "2.11.0",
   "channel": "stable",
-  "pub_date": "2026-11-11T16:09:52Z",
-  "expires": "2027-05-10T16:09:52Z",
+  "pub_date": "2026-11-14T09:14:55Z",
+  "expires": "2027-05-13T09:14:55Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.10.3",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.11.0",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.3/Diktuy-macOS.dmg",
-      "sha256": "97874115077e9424d6ce519b174d0d79e34471f8ffb128f4284527ade4191cea",
-      "size": 293126518
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/Diktuy-macOS.dmg",
+      "sha256": "c11098303c0db7da5bb30dc0d8e1e10177e0d988c87d8638ac709c2fd97064ca",
+      "size": 323695236
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.3/Diktuy-macOS.dmg",
-      "sha256": "97874115077e9424d6ce519b174d0d79e34471f8ffb128f4284527ade4191cea",
-      "size": 293126518
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.3/Diktuy-macOS-x86_64.dmg",
-      "sha256": "662d757487572b1f599becda0149200160c9e975c3795a1a9dff9cc68e41f578",
-      "size": 353482281
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/Diktuy-macOS.dmg",
+      "sha256": "c11098303c0db7da5bb30dc0d8e1e10177e0d988c87d8638ac709c2fd97064ca",
+      "size": 323695236
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.10.3/DiktuySetup.exe",
-      "sha256": "d347f8f677acdf9155bdec49d495dd7ff0c618df08f43234f5b6561a5c1067be",
-      "size": 160168433
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/DiktuySetup.exe",
+      "sha256": "8496530b619121c3c384d0e670d0520dde54d610eb2b6ab8348039f58aaa1cb8",
+      "size": 171511991
     }
   },
   "notes": {
-    "date": "2026-11-11",
-    "show_whats_new": false,
+    "date": "2026-11-13",
+    "show_whats_new": true,
     "ru": {
-      "summary": "Исправили первый запуск на Windows с небольшим экраном.",
+      "summary": "Новые настройки текста диктовки и улучшенная запись встреч на Windows.",
       "body": [
         {
-          "text": "Исправили ошибку, из-за которой на ноутбуках с небольшим экраном не удавалось пройти настройку при первом запуске."
+          "text": "Диктуй теперь умеет записывать размеры, например «20х20 см» и «20х30х40 мм». А если назвать дату, после года появится «г.»: «12 марта 2014 г.». Ещё текст может начинаться с маленькой буквы и заканчиваться без точки. Включить всё это можно в разделе «Настройки» → «Диктовка»."
+        },
+        {
+          "text": "Улучшена запись встреч на Windows: собеседники записываются в любых наушниках и колонках."
+        },
+        {
+          "text": "Исправили ошибки и улучшили работу приложения."
         }
       ]
     },
     "en": {
-      "summary": "Fixed first launch on Windows laptops with small screens.",
+      "summary": "New dictation text settings and better meeting recording on Windows.",
       "body": [
         {
-          "text": "Fixed an issue where setup could not be completed at first launch on laptops with small screens."
+          "text": "In Russian dictation, Diktuy can now write sizes like “20х20 см” and “20х30х40 мм” and add “г.” after the year in a date: “12 марта 2014 г.”. Text can also start with a lowercase letter and end without a period. Turn these on in Settings → Dictation."
+        },
+        {
+          "text": "Improved meeting recording on Windows: other participants are recorded through any headphones or speakers."
+        },
+        {
+          "text": "Bug fixes and performance improvements."
         }
       ]
     }
   },
-  "signature": "pBPkNw3N6tte9XBAtz/eCxdukEcMGCODM/plsSxzHhCQN9lYZDJ3B/y8WIzFEvr8xSWhXixmKlAqjJnS8ZslBA==",
+  "signature": "GzSfH4BpjofTWVjCeRKz11nRc7DExercXTkgkQliEqLAqrgx0IATU9tLuh7X9Cy2hkL+xHCRnPP6Zfoqitw3AA==",
   "signed_with": "+qcNzVo/"
 }
