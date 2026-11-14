@@ -1,65 +1,48 @@
 {
   "manifest_version": 1,
-  "version": "2.11.0",
+  "version": "2.11.1",
   "channel": "stable",
-  "pub_date": "2026-11-14T09:22:58Z",
-  "expires": "2027-05-13T09:22:58Z",
+  "pub_date": "2026-11-14T11:18:18Z",
+  "expires": "2027-05-13T11:18:18Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.11.0",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.11.1",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/Diktuy-macOS.dmg",
-      "sha256": "c11098303c0db7da5bb30dc0d8e1e10177e0d988c87d8638ac709c2fd97064ca",
-      "size": 323695236
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.1/Diktuy-macOS.dmg",
+      "sha256": "b2d079f03a760ba2d08c54af87e84f519de5f06f5a11c47b07b45c14d55486d6",
+      "size": 347119563
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/Diktuy-macOS.dmg",
-      "sha256": "c11098303c0db7da5bb30dc0d8e1e10177e0d988c87d8638ac709c2fd97064ca",
-      "size": 323695236
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/Diktuy-macOS-x86_64.dmg",
-      "sha256": "382543c3e4963d31c504a5ef8182fde5d156be92dab064b9ed889de0cf213557",
-      "size": 385446829
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.1/Diktuy-macOS.dmg",
+      "sha256": "b2d079f03a760ba2d08c54af87e84f519de5f06f5a11c47b07b45c14d55486d6",
+      "size": 347119563
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.0/DiktuySetup.exe",
-      "sha256": "8496530b619121c3c384d0e670d0520dde54d610eb2b6ab8348039f58aaa1cb8",
-      "size": 171511991
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.1/DiktuySetup.exe",
+      "sha256": "a72cf53548a05347774c9a57d341b4a13249abdac5ae0c04072178c306383a84",
+      "size": 178061219
     }
   },
   "notes": {
-    "date": "2026-11-13",
-    "show_whats_new": true,
+    "date": "2026-11-14",
+    "show_whats_new": false,
     "ru": {
-      "summary": "Новые настройки текста диктовки и улучшенная запись встреч на Windows.",
+      "summary": "Исправили ошибки и улучшили работу приложения.",
       "body": [
-        {
-          "text": "Диктуй теперь умеет записывать размеры, например «20х20 см» и «20х30х40 мм». А если назвать дату, после года появится «г.»: «12 марта 2014 г.». Ещё текст может начинаться с маленькой буквы и заканчиваться без точки. Включить всё это можно в разделе «Настройки» → «Диктовка»."
-        },
-        {
-          "text": "Улучшена запись встреч на Windows: собеседники записываются в любых наушниках и колонках."
-        },
         {
           "text": "Исправили ошибки и улучшили работу приложения."
         }
       ]
     },
     "en": {
-      "summary": "New dictation text settings and better meeting recording on Windows.",
+      "summary": "Bug fixes and performance improvements.",
       "body": [
-        {
-          "text": "In Russian dictation, Diktuy can now write sizes like “20х20 см” and “20х30х40 мм” and add “г.” after the year in a date: “12 марта 2014 г.”. Text can also start with a lowercase letter and end without a period. Turn these on in Settings → Dictation."
-        },
-        {
-          "text": "Improved meeting recording on Windows: other participants are recorded through any headphones or speakers."
-        },
         {
           "text": "Bug fixes and performance improvements."
         }
       ]
     }
   },
-  "signature": "yKZpQ3SCGELPMc3odfOsqNoNNj4Wak2qn1p4smgIfMZVYyfHNqUcCQQI/gwscvxHSL3i9DMZE4qjmqVu5V2ECg==",
+  "signature": "mZauiKkG7vqZSHdObXocH8TRPRsWWeC5zr7cHwxkl8k//fIKuldRwaL+yY3OU07BFvh00SjQqSTgO1CMZIRZAw==",
   "signed_with": "+qcNzVo/"
 }
