@@ -1,53 +1,54 @@
 {
   "manifest_version": 1,
-  "version": "2.11.1",
+  "version": "2.12.0",
   "channel": "stable",
-  "pub_date": "2026-11-14T11:27:19Z",
-  "expires": "2027-05-13T11:27:19Z",
+  "pub_date": "2026-11-15T09:24:04Z",
+  "expires": "2027-05-14T09:24:04Z",
   "min_supported_version": "1.10.0",
-  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.11.1",
+  "notes_url": "https://github.com/lamblackout/diktuy-releases/releases/tag/v2.12.0",
   "platforms": {
     "darwin": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.1/Diktuy-macOS.dmg",
-      "sha256": "b2d079f03a760ba2d08c54af87e84f519de5f06f5a11c47b07b45c14d55486d6",
-      "size": 347119563
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.12.0/Diktuy-macOS.dmg",
+      "sha256": "fa621ac37e93ef295b815cc9c930b2530d426cc5b519791d99d58a4fd5c1ab05",
+      "size": 347230715
     },
     "darwin-arm64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.1/Diktuy-macOS.dmg",
-      "sha256": "b2d079f03a760ba2d08c54af87e84f519de5f06f5a11c47b07b45c14d55486d6",
-      "size": 347119563
-    },
-    "darwin-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.1/Diktuy-macOS-x86_64.dmg",
-      "sha256": "e0b6f14872ce891e98896f4530220503d25d3151a73a7b2e63c4ba82966a0d39",
-      "size": 411497012
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.12.0/Diktuy-macOS.dmg",
+      "sha256": "fa621ac37e93ef295b815cc9c930b2530d426cc5b519791d99d58a4fd5c1ab05",
+      "size": 347230715
     },
     "windows-x86_64": {
-      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.11.1/DiktuySetup.exe",
-      "sha256": "a72cf53548a05347774c9a57d341b4a13249abdac5ae0c04072178c306383a84",
-      "size": 178061219
+      "url": "https://github.com/lamblackout/diktuy-releases/releases/download/v2.12.0/DiktuySetup.exe",
+      "sha256": "c2db2040785a9f71318852d225465ead89f286cb8f6dc7ebde2dce8772b2a71a",
+      "size": 178090431
     }
   },
   "notes": {
-    "date": "2026-11-14",
+    "date": "2026-11-15",
     "show_whats_new": false,
     "ru": {
-      "summary": "Исправили ошибки и улучшили работу приложения.",
+      "summary": "Для организаций: установщик MSI, функции ИИ через модель компании и политика синхронизации встреч.",
       "body": [
+        {
+          "text": "Для организаций: установщик MSI для SCCM и групповых политик, функции ИИ через модель компании и политика синхронизации встреч. Подробнее на diktuy.ru/dlya-it"
+        },
         {
           "text": "Исправили ошибки и улучшили работу приложения."
         }
       ]
     },
     "en": {
-      "summary": "Bug fixes and performance improvements.",
+      "summary": "For organizations: an MSI installer, AI features through your company's model, and a meeting sync policy.",
       "body": [
+        {
+          "text": "For organizations: an MSI installer for SCCM and Group Policy, AI features through your company's model, and a meeting sync policy. Learn more at diktuy.ru/dlya-it"
+        },
         {
           "text": "Bug fixes and performance improvements."
         }
       ]
     }
   },
-  "signature": "hwtA3dJOv6hiDR9+bxH0xQ5dGgvmVxq79Pym4W26ro4vfkx34eGP3BYcm1luKLd4m8GgJrrsat5NXswa23SWAw==",
+  "signature": "NGcEOSZKcphHAMjQE6zTJyV8jLS9D+yi6AQVrlBeNJJOhAr7gbQ/JCt7LKBsVqgma7nIDqkZ/OsOtTCkteigAg==",
   "signed_with": "+qcNzVo/"
 }
